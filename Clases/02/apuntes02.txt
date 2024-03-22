@@ -4,6 +4,7 @@ Sobrecarga de funciones
 Sobrecarga de operadores
 Plantillas
  
-En el pdf 01 "Funciones y otros conceptos - extra" se estudia el uso de punteros
+En el pdf "01 Funciones y otros conceptos - extra" se estudia el uso de punteros
+En el pdf "FuncionesY_OtrosConceptos" se estudia la sobrecargade operadores y las plantillas
 En el proyecto "PlantillaDeFunciones" se muestra el uso de las plantillas
 En el proyecto "SobrecargaDeOperadores" se muestra el uso de la sobrecarga

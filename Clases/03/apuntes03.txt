@@ -1,0 +1,2 @@
+Se terminó el proyecto de sobrecarga de operadores con lectura de un archivo de texto.
+Se terminó el proyecto de librerías estáticas.
