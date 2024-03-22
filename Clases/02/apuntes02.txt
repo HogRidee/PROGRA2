@@ -2,4 +2,7 @@ Se revisaron los punteros de forma más exacta.
 Paso por referencia, heap, stack, new (para declarar arreglos)
 Sobrecarga de funciones
 Sobrecarga de operadores
-Plantillas 
+Plantillas
+ 
+En el pdf 01 "Funciones y otros conceptos - extra" se estudia el uso de punteros
+En el proyecto "PlantillaDeFunciones" se muestra el uso de las plantillas
