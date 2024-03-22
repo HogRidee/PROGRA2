@@ -6,3 +6,4 @@ Plantillas
  
 En el pdf 01 "Funciones y otros conceptos - extra" se estudia el uso de punteros
 En el proyecto "PlantillaDeFunciones" se muestra el uso de las plantillas
+En el proyecto "SobrecargaDeOperadores" se muestra el uso de la sobrecarga
