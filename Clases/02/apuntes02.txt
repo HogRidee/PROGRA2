@@ -1,0 +1,5 @@
+Se revisaron los punteros de forma más exacta.
+Paso por referencia, heap, stack, new (para declarar arreglos)
+Sobrecarga de funciones
+Sobrecarga de operadores
+Plantillas 
