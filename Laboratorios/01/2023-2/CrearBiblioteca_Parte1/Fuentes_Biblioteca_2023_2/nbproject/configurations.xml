@@ -4,6 +4,9 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>AperturaDeArchivos.h</itemPath>
+      <itemPath>Estructuras.h</itemPath>
+      <itemPath>funciones.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,6 +15,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>funciones.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -35,7 +39,23 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>.</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>aperturadearchivosbibl</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
       </compileType>
+      <item path="AperturaDeArchivos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Estructuras.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="funciones.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="funciones.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
@@ -59,6 +79,14 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="AperturaDeArchivos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Estructuras.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="funciones.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="funciones.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
