@@ -1,2 +1,4 @@
 Se terminó el proyecto de sobrecarga de operadores con lectura de un archivo de texto.
 Se terminó el proyecto de librerías estáticas.
+Con esto es posible resolver el lab 1 del 2023-2 (trata los temas de creación
+de bibliotecas estáticas y de su reutilización)
