@@ -4,7 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>punto2D.hpp</itemPath>
+      <itemPath>pruebas.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -37,14 +37,17 @@
       </toolsSet>
       <compileType>
         <linkerTool>
+          <linkerAddLib>
+            <pElem>.</pElem>
+          </linkerAddLib>
           <linkerLibItems>
-            <linkerLibFileItem>libpunto2dlib.a</linkerLibFileItem>
+            <linkerLibLibItem>libreria</linkerLibLibItem>
           </linkerLibItems>
         </linkerTool>
       </compileType>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="punto2D.hpp" ex="false" tool="3" flavor2="0">
+      <item path="pruebas.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -69,7 +72,7 @@
       </compileType>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="punto2D.hpp" ex="false" tool="3" flavor2="0">
+      <item path="pruebas.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

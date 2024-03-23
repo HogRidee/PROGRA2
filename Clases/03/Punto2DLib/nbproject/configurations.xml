@@ -4,7 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>punto2D.hpp</itemPath>
+      <itemPath>pruebas.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -13,7 +13,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>punto2D.cpp</itemPath>
+      <itemPath>pruebas.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -39,9 +39,9 @@
         <archiverTool>
         </archiverTool>
       </compileType>
-      <item path="punto2D.cpp" ex="false" tool="1" flavor2="0">
+      <item path="pruebas.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="punto2D.hpp" ex="false" tool="3" flavor2="0">
+      <item path="pruebas.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="3">
@@ -66,9 +66,9 @@
         <archiverTool>
         </archiverTool>
       </compileType>
-      <item path="punto2D.cpp" ex="false" tool="1" flavor2="0">
+      <item path="pruebas.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="punto2D.hpp" ex="false" tool="3" flavor2="0">
+      <item path="pruebas.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

@@ -1,13 +1,13 @@
 /* 
- * File  :  main.cpp
- * Autor :  Ivan Alexander Araoz Andrade
- * Codigo:  20201216
+ * File:   main.cpp
+ * Author: Ivan
  *
- * Creado el 22 de marzo de 2024, 04:31 PM
+ * Created on 23 de marzo de 2024, 11:43
  */
 
+#include <cstdlib>
 #include <iostream>
-#include "punto2D.hpp"
+#include "pruebas.h"
 
 using namespace std;
 

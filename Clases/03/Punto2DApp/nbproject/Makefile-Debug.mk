@@ -52,13 +52,11 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=libpunto2dlib.a
+LDLIBSOPTIONS=-L. -llibreria
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
 	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/punto2dapp.exe
-
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/punto2dapp.exe: libpunto2dlib.a
 
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/punto2dapp.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}

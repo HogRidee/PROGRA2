@@ -1,12 +1,4 @@
-/* 
- * File  :  punto2D.cpp
- * Autor :  Ivan Alexander Araoz Andrade
- * Codigo:  20201216
- *
- * Creado el 22 de marzo de 2024, 04:24 PM
- */
- 
-#include "punto2D.hpp"
+#include "pruebas.h"
 
 Punto2D operator+(const Punto2D &p1, const Punto2D &p2){
     Punto2D p3;
