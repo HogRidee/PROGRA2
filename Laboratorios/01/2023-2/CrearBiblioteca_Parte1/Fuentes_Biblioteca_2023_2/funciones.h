@@ -21,6 +21,7 @@ using namespace std;
 
 bool operator >> (istream &, Cliente &);
 bool operator >> (istream &, Producto &);
+bool operator >> (istream &in, Pedido &pedido);
 
 #endif /* FUNCIONES_H */
 

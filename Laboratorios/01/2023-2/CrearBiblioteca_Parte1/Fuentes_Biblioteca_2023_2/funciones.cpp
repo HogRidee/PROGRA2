@@ -3,19 +3,40 @@
 bool operator >> (istream &in, Cliente &cliente){   
     in >> cliente.dni;
     if(in.eof()) return false;
-    cout << cliente.dni << " ";
     in.get();
     
     in.getline(cliente.nombre, 60, ',');
-    //strcpy(cliente.nombre, buffer);
-    cout << cliente.nombre << " ";
     
     in >> cliente.telefono;
-    cout << cliente.telefono << endl;
+
     return true;
 }
 
 bool operator >> (istream &in, Producto &producto){
+    char c;
+    int i = 0;
+    while(true){
+        in.get(c);
+        if(c == ',' or in.eof()) break;
+        if(i < 7) { // Asegúrate de que no desbordas el array
+            producto.codigo[i] = c; 
+        }
+        i++;
+    }
+    producto.codigo[i] = '\0';
+    if(in.eof()) return false;
+    
+    in.getline(producto.descripcion, 60, ',');
+    
+    in >> producto.precio;
+    in.get();
+    
+    in >> producto.stock;
+    
+    return true;
+}
+
+bool operator >> (istream &in, Pedido &pedido){
     char buffer[60], c;
     int i = 0;
     while(in.get(c)){
@@ -25,19 +46,11 @@ bool operator >> (istream &in, Producto &producto){
     }
     buffer[i] = '\0';
     if(in.eof()) return false;
-    strcpy(producto.codigo, buffer);
-    cout << producto.codigo << " ";
+    strcpy(pedido.CodigoProducto, buffer);
     
-    in.getline(buffer, 60, ',');
-    strcpy(producto.descripcion, buffer);
-    cout << producto.descripcion << " ";
+    in >> pedido.dniCliente;
     
-    in >> producto.precio;
-    in.get();
-    cout << producto.precio << " ";
-    
-    in >> producto.stock;
-    cout << producto.stock << endl;
+    pedido.precioProducto = 0.0;
     
     return true;
 }

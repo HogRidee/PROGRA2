@@ -17,6 +17,8 @@ int main(int argc, char** argv) {
     while(true){
         archClientes >> cliente;
         if(archClientes.eof()) break;
+        cout << cliente.dni << " " << cliente.nombre << " " << cliente.telefono
+                << endl;
     }
     cout << "Se pudo leer todo el archivo clientes" << endl;
     
@@ -27,12 +29,30 @@ int main(int argc, char** argv) {
     
     AperturaDeUnArchivoDeTextosParaLeer(archProductos, "Productos.csv");
     
-    while(true){
-        if (archProductos.eof()) break; 
+    while(true){ 
         archProductos >> producto;
+        if (archProductos.eof()) break;
+        cout << producto.codigo << " " << producto.descripcion << " " <<
+                producto.precio << " " << producto.stock << endl;
     }
     
+    cout << "Se pudo leer todo el archivo productos" << endl;
+    
     archProductos.close();
+    
+    ifstream archPedidos;
+    Pedido pedido;
+    
+    AperturaDeUnArchivoDeTextosParaLeer(archPedidos, "Pedidos.csv");
+    
+    while(true){
+        if(archPedidos.eof()) break;
+        archPedidos >> pedido;
+    }
+    
+    cout << "Se pudo leer todo el archivo pedidos" << endl;
+    
+    archPedidos.close();
     
     return 0;
 }
