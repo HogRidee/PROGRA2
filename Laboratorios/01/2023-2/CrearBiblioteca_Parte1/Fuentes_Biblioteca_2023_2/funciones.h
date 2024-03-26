@@ -28,8 +28,9 @@ bool operator >> (istream &in, Pedido &);
 void leerCodigoProducto (istream &, Producto &);
 void operator += (Cliente *, const Pedido &);
 int buscarCliente(Cliente *, int );
-bool operator += (Producto *, Pedido );
-int buscarCodigo(Producto *, const Pedido &);
+bool operator += (Producto *, Pedido &);
+int buscarCodigoPedido(Producto *, const Pedido &);
+ostream& operator<<(ostream &,const Cliente &);
 
 #endif /* FUNCIONES_H */
 

@@ -52,10 +52,9 @@ void leerCodigoProducto (istream &in, Producto &producto){
     producto.codigo[i] = '\0';
 }
 
-bool operator >> (istream &in, Pedido &pedido){
+bool operator >> (istream &in, Pedido &pedido)  {
     char c;
     int i = 0;
-    in.ignore();
     while(in.get(c)){
         if(c == ',' or in.eof()) break;
         pedido.CodigoProducto[i] = c;
@@ -65,6 +64,7 @@ bool operator >> (istream &in, Pedido &pedido){
     if(in.eof()) return false;
     
     in >> pedido.dniCliente;
+    in.ignore();
     
     pedido.precioProducto = 0.0;
     
@@ -98,7 +98,7 @@ int buscarCliente(Cliente *arrClientes, int dniPedido){
 
 bool operator += (Producto *arrProductos, Pedido &pedido){
     int posicion;
-    posicion = buscarCodigo(arrProductos, pedido);
+    posicion = buscarCodigoPedido(arrProductos, pedido);
     if(posicion == -1) return false;
     pedido.precioProducto = arrProductos[posicion].precio;
     if(arrProductos[posicion].stock > 0){
@@ -116,7 +116,7 @@ bool operator += (Producto *arrProductos, Pedido &pedido){
     }
 }
 
-int buscarCodigo(Producto *arrProductos, const Pedido &pedido){
+int buscarCodigoPedido(Producto *arrProductos, const Pedido &pedido){
     int i = 0;
     while(true){
         if(strcmp(arrProductos[i].codigo, pedido.CodigoProducto) == 0){
@@ -125,4 +125,23 @@ int buscarCodigo(Producto *arrProductos, const Pedido &pedido){
         if (strcmp(arrProductos[i].codigo, "XXXXXXX") == 0) return -1;
         i++;
     }
+}
+
+ostream& operator<<(ostream &out,const Cliente &cliente){
+    out << fixed << setprecision(2);
+    out << right << setw(8) << cliente.dni << left << "  " << setw(40) <<
+            cliente.nombre << right << setw(10) << cliente.telefono << setw(12)
+            << cliente.montoTotal << setw(2) << " ";
+    out << "Productos entregados: ";
+    if (cliente.cantidadProductosEntrgados > 0){
+        for (int i = 0; i < cliente.cantidadProductosEntrgados; i++){
+            out << left << setw(8) << cliente.productosEntregados[i].codigo 
+                    << " ";
+        }
+    }
+    else{
+        out << "NO SE LE ENTREGARON PRODUCTOS";
+    }
+    out << endl;
+    return out;
 }

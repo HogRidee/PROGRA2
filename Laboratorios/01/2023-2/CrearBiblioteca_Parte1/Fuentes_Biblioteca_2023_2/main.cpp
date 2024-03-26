@@ -17,15 +17,19 @@ int main(int argc, char** argv) {
     AperturaDeUnArchivoDeTextosParaLeer(archClientes, "Clientes.csv");
 
     while(true){
-        archClientes >> arrClientes[nClientes];
-        if(archClientes.eof()){
-            arrClientes[nClientes+1].dni = 0;
+        if(!(archClientes >> arrClientes[nClientes])){
+            arrClientes[nClientes].dni = 0;
             break;
         }
         nClientes++;
     }
     
-    archClientes.close();
+    for (int i = 0; i <= nClientes; i++){
+        cout << arrClientes[i].dni << " " << arrClientes[i].nombre << " " << 
+                arrClientes[i].telefono << endl;
+    }
+    
+    cout << "Se leyo correctamente el archivo clientes" << endl;
     
     ifstream archProductos;
     Producto *arrProductos = nullptr;
@@ -35,43 +39,51 @@ int main(int argc, char** argv) {
     AperturaDeUnArchivoDeTextosParaLeer(archProductos, "Productos.csv");
     
     while(true){ 
-        archProductos >> arrProductos[nProductos];
-        if (archProductos.eof()){
-            strcpy(arrProductos[nProductos+1].codigo, "XXXXXXX");
+        if (!(archProductos >> arrProductos[nProductos])){
+            strcpy(arrProductos[nProductos].codigo, "XXXXXXX");
             break;
         }
         nProductos++;
     }
-
+    
     for (int i = 0; i <= nProductos; i++){
-        cout << arrProductos[i].codigo << endl;
+        cout << arrProductos[i].codigo << " " << arrProductos[i].descripcion << " " << 
+                arrProductos[i].precio << " " << arrProductos[i].stock << endl;
     }
     
-    archProductos.close();
-    
+    cout << "Se leyo el archivo productos correctamente" << endl;
+
     ifstream archPedidos;
     Pedido pedido;
     
     AperturaDeUnArchivoDeTextosParaLeer(archPedidos, "Pedidos.csv");
     
-    while(true){
-        archPedidos >> pedido;
-        if(archPedidos.eof()) break;
-        // arrClientes += pedido;
-        cout << pedido.CodigoProducto << " " << pedido.dniCliente << " " <<
-                pedido.precioProducto << endl;
+    while(archPedidos >> pedido){
+        arrProductos += pedido;
+        arrClientes += pedido;
     }
     
-    cout << "Se pudo leer todo el archivo pedidos" << endl;
+    for (int i = 0; i < nClientes; i++){
+        cout << fixed << setprecision(2);
+        cout << right << setw(10) << arrClientes[i].montoTotal << " " << 
+               arrClientes[i].cantidadProductosEntrgados << " " <<
+                arrClientes[i].productosEntregados[0].codigo << " " <<
+                arrClientes[i].productosEntregados[0].precio << endl;
+    }
+    
+    cout << "Se leyo y asigno el archivo pedidos correctamente" << endl;
     
     archPedidos.close();
+    archProductos.close();
+    archClientes.close();
+    
+    ofstream archReporteClientes;
+    
+    AperturaDeUnArchivoDeTextosParaEscribir(archReporteClientes, 
+            "reporteClientes.txt");
     
     for (int i = 0; i < nClientes; i++){
-        cout << arrClientes[i].dni << " " << arrClientes[i].nombre << " "
-                << arrClientes[i].telefono << " " <<
-                arrClientes[i].productosEntregados[2].codigo << " " << 
-                arrClientes[i].montoTotal << " " << 
-                arrClientes[i].cantidadProductosEntrgados << endl;
+        archReporteClientes << arrClientes[i];
     }
     
     return 0;
