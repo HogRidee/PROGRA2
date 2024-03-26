@@ -10,33 +10,42 @@
 int main(int argc, char** argv) {
     
     ifstream archClientes;
-    Cliente cliente;
+    Cliente *arrClientes = nullptr;
+    arrClientes = new Cliente[NCLIENTES];
+    int nClientes = 0;
     
     AperturaDeUnArchivoDeTextosParaLeer(archClientes, "Clientes.csv");
 
     while(true){
-        archClientes >> cliente;
-        if(archClientes.eof()) break;
-        cout << cliente.dni << " " << cliente.nombre << " " << cliente.telefono
-                << endl;
+        archClientes >> arrClientes[nClientes];
+        if(archClientes.eof()){
+            arrClientes[nClientes+1].dni = 0;
+            break;
+        }
+        nClientes++;
     }
-    cout << "Se pudo leer todo el archivo clientes" << endl;
     
     archClientes.close();
     
     ifstream archProductos;
-    Producto producto;
+    Producto *arrProductos = nullptr;
+    arrProductos = new Producto[NPRODUCTOS];
+    int nProductos = 0;
     
     AperturaDeUnArchivoDeTextosParaLeer(archProductos, "Productos.csv");
     
     while(true){ 
-        archProductos >> producto;
-        if (archProductos.eof()) break;
-        cout << producto.codigo << " " << producto.descripcion << " " <<
-                producto.precio << " " << producto.stock << endl;
+        archProductos >> arrProductos[nProductos];
+        if (archProductos.eof()){
+            strcpy(arrProductos[nProductos+1].codigo, "XXXXXXX");
+            break;
+        }
+        nProductos++;
     }
-    
-    cout << "Se pudo leer todo el archivo productos" << endl;
+
+    for (int i = 0; i <= nProductos; i++){
+        cout << arrProductos[i].codigo << endl;
+    }
     
     archProductos.close();
     
@@ -46,13 +55,24 @@ int main(int argc, char** argv) {
     AperturaDeUnArchivoDeTextosParaLeer(archPedidos, "Pedidos.csv");
     
     while(true){
-        if(archPedidos.eof()) break;
         archPedidos >> pedido;
+        if(archPedidos.eof()) break;
+        // arrClientes += pedido;
+        cout << pedido.CodigoProducto << " " << pedido.dniCliente << " " <<
+                pedido.precioProducto << endl;
     }
     
     cout << "Se pudo leer todo el archivo pedidos" << endl;
     
     archPedidos.close();
+    
+    for (int i = 0; i < nClientes; i++){
+        cout << arrClientes[i].dni << " " << arrClientes[i].nombre << " "
+                << arrClientes[i].telefono << " " <<
+                arrClientes[i].productosEntregados[2].codigo << " " << 
+                arrClientes[i].montoTotal << " " << 
+                arrClientes[i].cantidadProductosEntrgados << endl;
+    }
     
     return 0;
 }
