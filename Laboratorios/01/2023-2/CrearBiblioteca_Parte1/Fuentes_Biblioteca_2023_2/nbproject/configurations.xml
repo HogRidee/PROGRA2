@@ -42,6 +42,7 @@
         <linkerTool>
           <linkerAddLib>
             <pElem>.</pElem>
+            <pElem>.</pElem>
           </linkerAddLib>
           <linkerLibItems>
             <linkerLibLibItem>aperturadearchivosbibl</linkerLibLibItem>
