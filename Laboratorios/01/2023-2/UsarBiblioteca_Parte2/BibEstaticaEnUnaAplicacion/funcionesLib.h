@@ -1,12 +1,12 @@
- /* 
- * File:   funciones.h
+/* 
+ * File:   funcionesLib.h
  * Author: Ivan
  *
- * Created on 23 de marzo de 2024, 13:43
+ * Created on 27 de marzo de 2024, 15:11
  */
 
-#ifndef FUNCIONES_H
-#define FUNCIONES_H
+#ifndef FUNCIONESLIB_H
+#define FUNCIONESLIB_H
 
 #include <cstdlib>
 #include <iostream>
@@ -34,5 +34,5 @@ ostream& operator<<(ostream &,const Cliente &);
 ostream& operator << (ostream &, const Producto &);
 void imprimirCabeceraProducto(ostream &, const Producto &);
 
-#endif /* FUNCIONES_H */
+#endif /* FUNCIONESLIB_H */
 

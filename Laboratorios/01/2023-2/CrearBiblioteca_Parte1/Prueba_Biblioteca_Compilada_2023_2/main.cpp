@@ -1,14 +1,14 @@
 /* 
  * File:   main.cpp
- * Author: Ivan Araoz 20201216
+ * Author: Ivan
  *
- * Created on 20 de marzo de 2024, 13:41
+ * Created on 27 de marzo de 2024, 15:16
  */
 
-#include "funciones.h"
+#include "funcionesLib.h"
 
 int main(int argc, char** argv) {
-    
+
     ifstream archClientes;
     Cliente *arrClientes = nullptr;
     arrClientes = new Cliente[NCLIENTES];

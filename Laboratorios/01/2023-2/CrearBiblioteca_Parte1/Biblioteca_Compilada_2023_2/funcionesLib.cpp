@@ -1,4 +1,4 @@
-#include "funciones.h"
+#include "funcionesLib.h"
 
 bool operator >> (istream &in, Cliente &cliente){   
     in >> cliente.dni;
