@@ -1,0 +1,4 @@
+Asignación exacta de memoria, delimitadores
+Asignación de memoria por incrementos
+El profe colgó una librería estática de lo de hoy
+Ejercicio "arrayCliente" con error
