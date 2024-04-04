@@ -21,7 +21,9 @@ using namespace std;
 bool operator >> (istream &, StCurso &);
 bool operator >> (istream &, StAlumno &);
 bool operator >> (istream &, StRegistroDeMatricula &);
-
+void operator += (StCurso *, const StCurso &);
+void operator += (StAlumno *, const StAlumno &);
+void operator *= (StCurso *, const StRegistroDeMatricula &);
 
 #endif /* SOBRECARGAS_H */
 

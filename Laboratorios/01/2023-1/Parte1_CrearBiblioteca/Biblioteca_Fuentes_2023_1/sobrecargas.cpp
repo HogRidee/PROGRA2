@@ -46,6 +46,49 @@ bool operator >> (istream &in, StRegistroDeMatricula &matricula){
 }
 
 void operator += (StCurso *arrCurso, const StCurso &curso){
-    int i = 0;
-    
+    int nCursos = 0;
+    while(true){
+        if(strcmp(arrCurso[nCursos].codigoDelCurso, "XXXXXX") == 0) break;
+        nCursos++;
+    }
+    for(int i = 0; i < curso.numeroDeAlumnos; i++){
+        arrCurso[nCursos].alumnos[i] = curso.alumnos[i];
+    }
+    strcpy(arrCurso[nCursos].codigoDelCurso, curso.codigoDelCurso);
+    strcpy(arrCurso[nCursos].nombreDelCurso, curso.nombreDelCurso);
+    strcpy(arrCurso[nCursos].nombreDelProfesor, curso.nombreDelProfesor);
+    arrCurso[nCursos].codigoDelProfesor = curso.codigoDelProfesor;
+    arrCurso[nCursos].creditos = curso.creditos;
+    arrCurso[nCursos].ingresos = curso.ingresos;
+    arrCurso[nCursos].numeroDeAlumnos = curso.numeroDeAlumnos;
+    strcpy(arrCurso[nCursos+1].codigoDelCurso, "XXXXXX");
+}
+
+void operator += (StAlumno *arrAlumnos, const StAlumno &alumno){
+    int nAlumnos = 0;
+    while(true){
+        if(arrAlumnos[nAlumnos].semestre == 0) break;
+        nAlumnos++;
+    }
+    arrAlumnos[nAlumnos].codigo = alumno.codigo;
+    arrAlumnos[nAlumnos].costoTotal = alumno.costoTotal;
+    for (int i = 0; i < alumno.numeroDeCursos; i++){
+        strcpy(arrAlumnos[nAlumnos].cursos[i], alumno.cursos[i]);
+    }
+    arrAlumnos[nAlumnos].escala = alumno.escala;
+    strcpy(arrAlumnos[nAlumnos].modalidad, alumno.modalidad);
+    strcpy(arrAlumnos[nAlumnos].nombre, alumno.nombre);
+    arrAlumnos[nAlumnos].numeroDeCursos = alumno.numeroDeCursos;
+    arrAlumnos[nAlumnos].porcentaje = alumno.porcentaje;
+    arrAlumnos[nAlumnos].semestre = alumno.semestre;
+    arrAlumnos[nAlumnos+1].semestre = 0;
+}
+
+void operator *= (StCurso *arrCursos, const StRegistroDeMatricula &matricula){
+    int posicion = 0;
+    while(true){
+        if(strcmp(arrCursos[posicion].codigoDelCurso, matricula.codigoDelCurso)
+                == 0) break;
+        posicion++;
+    }
 }
