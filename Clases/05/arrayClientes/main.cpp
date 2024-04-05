@@ -1,4 +1,4 @@
-/* 
+    /* 
  * File:   main.cpp
  * Author: ivana
  *
@@ -32,6 +32,7 @@ ostream& operator << (ostream &os, const Alumno array[]){
         os << array[i].nombre << "-" << array[i].carrera << endl;
         i++;
     }
+    return os;
 }
 
 int main(int argc, char** argv) {
@@ -42,7 +43,7 @@ int main(int argc, char** argv) {
     Alumno al2{"Mauro", "MEC"};
     alumnos += al1;
     alumnos += al2;
-    //[0] : al1, [1] : al2, [2] = ALUMNO_NULO
+    // [0] : al1, [1] : al2, [2] = ALUMNO_NULO
     cout << alumnos << endl;
     
     return 0;
