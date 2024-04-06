@@ -1,4 +1,4 @@
 ARREGLOS Y PUNTEROS (PARTE 02)
 Puntero doble, arrays dinámicos (matrices)
 Ventajas
-EJERCICIO Punteros a punteros-asignación exacta
+EJERCICIO Punteros a punteros-asignación exacta "ARRAY CURSOS"

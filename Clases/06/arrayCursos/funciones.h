@@ -14,8 +14,6 @@
 
 using namespace std;
 
-
-
 char *leerCadena(ifstream &file, char delim){
     char buffer[200];
     file.getline(buffer, 200, delim);
@@ -63,21 +61,21 @@ void leerDatos(const char *filename, char **&codigos, char **&nombres,
         codigos[i] = bufferCodigos[i];
         nombres[i] = bufferNombres[i];
         cursos[i] = separarCursos(bufferCursos[i]);
-        //TODO: split a buffer de cursos[i]
     }
     codigos[n] = nullptr;
     nombres[n] = nullptr;
-    cursos[n] = nullptr;
-    
+    cursos[n] = nullptr; 
     file.close();
 }
 
 void mostrarDatos(char **codigos, char **nombres, char ***cursos){
+    int j;
     for(int i = 0; codigos[i] != nullptr; i++){
         cout << codigos[i] << "-" << nombres[i] << ":" << endl << "  ";
-        for (int j = 0; cursos[i][j] != nullptr; j++){
-            cout << cursos[i][j] << "-";
+        for (j = 0; cursos[i][j] != nullptr; j++){
+            cout << cursos[i][j] << " ";
         }
+        cout << "Numero de cursos: " << j;
         cout << endl;
     }
 }
