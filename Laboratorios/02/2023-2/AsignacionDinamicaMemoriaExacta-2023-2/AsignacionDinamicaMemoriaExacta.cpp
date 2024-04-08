@@ -55,7 +55,9 @@ void pruebaDeLecturaDeProductos(const char *filename, char ***productos,
     file << setw(35) << " " << "PRUEBA DE LECTURA DE PRODUCTOS" << endl;
     imprimirLinea('-', 100, file);
     for(int i = 0; productos[i] != nullptr; i++){
-        file << productos[i][0] << endl;
+        file << left << setw(10) << productos[i][0] << setw(4) << " ";
+        file << left << setw(60) << productos[i][1] << setw(4) << " ";
+        file << right << setw(5) << stock[i] << setw(4) << " " << endl;
     }
     file.close();
 }
