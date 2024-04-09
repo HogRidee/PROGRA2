@@ -1,0 +1,629 @@
+                                   REPORTE DE ENTREGA DE PEDIDOS
+====================================================================================================
+FECHA:   24/08/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  50375303   JXD-139Terma Evolucion Soltu                                       
+02)  13245501   AWB-345Deshumedecedor DM-189H                                      
+03)  12663268   AHB-459Reproductor DVD Portatil TV 7                               
+04)  36380447   OWN-701Olla arrocera                                               
+05)  88956889   TMN-884Secadora de mano                                            
+06)  59162728   FEG-454Sillon masajeador                                           
+07)  33713901   ZVA-180Refrigeradora 322 litros                                    
+08)  86402303   OQI-373Cocina Empotrable Premio Plus                               
+09)  24995742   KCO-488Ventilador de pared                                         
+10)  97403853   BCK-361Tablets 10.1                                                
+11)  79901434   OXP-732Televisor OLED 4K UHD Google TV Smart 77 XR-77A80L LA8      
+12)  26290971   TYF-885Videojuego TW 4                                             
+13)  26976877   AFL-718Vinera                                                      
+14)  79464412   JXD-139Terma Evolucion Soltu                                       
+15)  25171011   QRC-609Camara de video EOS                                         
+16)  89148118   JFC-432DVD DVM-L79                                                 
+17)  45828535   AVM-258Cocina a gas Toscana                                        
+18)  46462527   ISU-815Audifonos                                                   
+19)  95015539   CSZ-863Video Filmadora                                             
+20)  11602775   JJN-837Lavadora Tecnologia Wobbie                                  
+21)  15210391   OTW-288Cavba de Vinos GE cap. 34 botellas                          
+22)  43877279   SSD-176Refrigeradora Linea Gallery                                 
+23)  54761731   FVB-607Cocina a gas Essenza BL                                     
+24)  85949265   LDR-510Mini componente ESX9                                        
+25)  78078115   SSD-176Refrigeradora Linea Gallery                                 
+26)  35565959   VJI-529Horno Empotrable Electrico                                  
+27)  45783712   VZV-827Refrigeradora Top Mount                                     
+28)  50365593   VVS-017Tablets MW 0731                                             
+29)  87800799   JDC-028Puntero Laser                                               
+30)  73914283   OBI-353Terma Milenium                                              
+31)  45877001   RDT-761Horno Microondas con dorador                                
+32)  42928709   GLC-370Video Proyector Power Lite 95                               
+FECHA:   03/09/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  50375303   CRU-009Lavavajilla                                                 
+02)  26290971   PVZ-181Ventilador circular                                         
+03)  73535476   FLJ-040Parlantes portatiles SOUNDSHOOTER                           
+04)  16552775   AWB-345Deshumedecedor DM-189H                                      
+05)  73535476   UWA-476Autoradio MEX BT3150U                                       
+06)  95751208   UOD-420Mini componente ESX6                                        
+07)  15561764   GBJ-693Radio CD                                                    
+08)  43043986   ZEX-027Tablet Xperia Z                                             
+09)  96258632   CRU-009Lavavajilla                                                 
+10)  79901434   ZEX-027Tablet Xperia Z                                             
+11)  12663268   YYU-726Reproductor DVD Portatil                                    
+12)  71378466   FVQ-662Cocina a gas Pro 6300 INOX                                  
+13)  26976877   VTV-269Extractor de aire                                           
+14)  42798099   OQI-373Cocina Empotrable Premio Plus                               
+15)  23928045   TMN-884Secadora de mano                                            
+16)  69324480   UOD-420Mini componente ESX6                                        
+17)  59407188   OWN-701Olla arrocera                                               
+18)  57263719   OTH-462Lavadora Semi-Automatica                                    
+19)  37110873   FCN-617Televisor Plasma 60                                         
+20)  96659352   GBJ-693Radio CD                                                    
+21)  52097922   UTN-601Autoradio XAV-601 BT                                        
+22)  79901434   CSZ-863Video Filmadora                                             
+23)  89429489   UXG-019Terma de acumulacion                                        
+24)  52097922   XSD-310Refrigeradora No frost                                      
+25)  33713901   VVS-017Tablets MW 0731                                             
+26)  62566305   AVM-258Cocina a gas Toscana                                        
+27)  32904023   RBE-789Televisor SMART TV                                          
+28)  99842319   DUG-251Cocina a gas FFG3047SL                                      
+29)  40112594   FVQ-662Cocina a gas Pro 6300 INOX                                  
+30)  16151792   AQS-362Teclado Inalambrico USB                                     
+31)  52097922   XZG-521Secadora Electrica FAQE7001LW                               
+32)  54761731   OTS-581Galaxy Note 8.0                                             
+FECHA:   27/08/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  22777006   YYK-309Refrigeradora Door in Door                                  
+02)  63437380   PJG-338Impresora Mutifuncional Inalambricar                        
+03)  87813843   MLE-193Cocina a gas Ingenious                                      
+04)  79140840   DFF-034Grabadora de voz digital portátil con USB integrado         
+05)  73914283   OBI-353Terma Milenium                                              
+06)  43053402   YOT-530Deshumedecedor DM-190H                                      
+07)  52097922   ISU-815Audifonos                                                   
+08)  32565207   UXG-019Terma de acumulacion                                        
+09)  37110873   YZD-580Mini componente ESX8                                        
+10)  12663268   XSD-310Refrigeradora No frost                                      
+11)  11602775   YYK-309Refrigeradora Door in Door                                  
+12)  15561764   FYF-898Proyector a color                                           
+13)  60574154   III-576Campana Extractora Venus Plus                               
+14)  73185299   QUU-384Lavavajilla Blue Touch                                      
+15)  43877279   SNY-500Cocina a gas Praga Quarzo                                   
+16)  40112594   KSO-608Secadora Modelo Italica                                     
+17)  41036366   AQS-362Teclado Inalambrico USB                                     
+18)  25171011   CIM-038Cocina Empotrable Petra                                     
+19)  96659352   KQA-580Cocina Empotrable Glassy Plus                               
+20)  79140840   HLR-109Parlantes inalambricos                                      
+21)  90237332   OQI-373Cocina Empotrable Premio Plus                               
+22)  89863424   SSE-115Refrigeradora  CoolStyle 311N Steel                         
+23)  86828079   YGV-332Impresora Led Color                                         
+24)  78757121   KJX-387Ventilador de techo                                         
+25)  78078115   XOA-735Congeladora Vertical 392 Lts.                               
+26)  67418025   EVN-510Cocina a gas FFG3011LB                                      
+27)  95751208   BRD-969Centro de Lavado Electrico                                  
+28)  26976877   KQQ-136Impresora Laser EPSON                                       
+29)  38913831   FLW-631Radio Reloj Despertador                                     
+30)  57263719   OTH-462Lavadora Semi-Automatica                                    
+31)  63437380   YEZ-591Lavadora WA                                                 
+32)  91897732   OXP-732Televisor OLED 4K UHD Google TV Smart 77 XR-77A80L LA8      
+33)  26233063   JFC-432DVD DVM-L79                                                 
+34)  55552996   SSD-176Refrigeradora Linea Gallery                                 
+35)  22777006   XLF-273Centro de Lavado a Gas                                      
+36)  13245501   JCW-489Conservadora Exibidora CMVE-250                             
+37)  26976877   YUQ-590Refrigeradora  CoolStyle 395N Steel                         
+38)  38637282   OFS-384Parlantes Bluetooth                                         
+39)  84165595   JFC-432DVD DVM-L79                                                 
+40)  45877001   GBJ-693Radio CD                                                    
+41)  66409237   CRU-009Lavavajilla                                                 
+42)  78922174   OQI-373Cocina Empotrable Premio Plus                               
+43)  54716824   CRU-009Lavavajilla                                                 
+44)  17913944   XLF-273Centro de Lavado a Gas                                      
+45)  57690875   XTE-383Rack Fijo 32/60                                             
+FECHA:   28/08/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  42157219   OTS-581Galaxy Note 8.0                                             
+02)  77484838   UWA-476Autoradio MEX BT3150U                                       
+03)  79464412   CJE-310Mini componente GPX33                                       
+04)  76388967   SJQ-827Reproductor Multimedia Touch Screen                         
+05)  78922174   TKM-141Cocina a gas Marsella                                       
+06)  94080926   NMV-644Lavadora Automatica                                         
+07)  57263719   BWD-036Cocina Empotrable Klimatica                                 
+08)  17972674   ZWF-661Impresora Led                                               
+09)  89148118   XLF-273Centro de Lavado a Gas                                      
+10)  42928709   NSM-283Cocina a gas FFG3053SL                                      
+11)  57690875   CIM-038Cocina Empotrable Petra                                     
+12)  80048864   BCK-361Tablets 10.1                                                
+13)  59407188   BIT-434Campana Extractora modelo Glass                             
+14)  32565207   FVQ-662Cocina a gas Pro 6300 INOX                                  
+15)  24995742   YMU-875Cocina a gas Plermo Quarzo                                  
+16)  89298238   QFP-254Calentador electrico instantaneo                            
+17)  44679500   AWB-345Deshumedecedor DM-189H                                      
+18)  35584593   AVM-258Cocina a gas Toscana                                        
+19)  85871751   MYC-756Cocina a gas Leganza INOX                                   
+20)  43043986   QFP-254Calentador electrico instantaneo                            
+21)  71463316   UWA-476Autoradio MEX BT3150U                                       
+22)  71378466   ARS-231Audifonos Stereos                                           
+23)  79475585   KQQ-136Impresora Laser EPSON                                       
+24)  32904023   KJX-387Ventilador de techo                                         
+25)  42157219   KCO-488Ventilador de pared                                         
+26)  71463316   BCN-855Cocina a gas Bahia Can                                      
+27)  66409237   UXG-019Terma de acumulacion                                        
+28)  23928045   OXP-732Televisor OLED 4K UHD Google TV Smart 77 XR-77A80L LA8      
+29)  26233063   KSO-608Secadora Modelo Italica                                     
+30)  86241107   CIM-038Cocina Empotrable Petra                                     
+31)  35565959   DFJ-952Cocina a gas Prestige 60 INOX                               
+32)  73786035   DEN-125Rack Fijo 26/32                                             
+33)  45828535   TZY-323Terma a gas                                                 
+34)  26976877   SSE-115Refrigeradora  CoolStyle 311N Steel                         
+35)  80048864   PPX-620Aire acondicionado tipo split                               
+36)  60574154   KDA-627Cocina a gas Ijasmin                                        
+37)  40112594   BCK-361Tablets 10.1                                                
+38)  79372768   QVJ-982Horno Microondas 0.7 p3                                     
+39)  43877279   QUU-384Lavavajilla Blue Touch                                      
+40)  69975105   HFM-021Horno Electrico                                             
+41)  43053402   FVQ-662Cocina a gas Pro 6300 INOX                                  
+42)  89863424   OTH-462Lavadora Semi-Automatica                                    
+43)  95161027   OQI-373Cocina Empotrable Premio Plus                               
+44)  62324793   OPJ-039Secadora de Ropa                                            
+FECHA:   04/09/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  33397650   IHG-413Parlant Y pedestal PAM-83                                   
+02)  69324480   JCW-489Conservadora Exibidora CMVE-250                             
+03)  50375303   KQA-580Cocina Empotrable Glassy Plus                               
+04)  32565207   IDO-503Laptop GamerVictus de 15.6                                  
+05)  63437380   III-576Campana Extractora Venus Plus                               
+06)  91897732   TMN-884Secadora de mano                                            
+07)  31611146   YOT-530Deshumedecedor DM-190H                                      
+08)  85949265   JFC-432DVD DVM-L79                                                 
+09)  12663268   RAH-420Cocina a gas Pro 6550 INOX                                  
+10)  88956889   YUQ-590Refrigeradora  CoolStyle 395N Steel                         
+11)  38913831   BCN-855Cocina a gas Bahia Can                                      
+12)  44229880   JXD-139Terma Evolucion Soltu                                       
+13)  42928709   XLF-273Centro de Lavado a Gas                                      
+14)  88956889   UWA-476Autoradio MEX BT3150U                                       
+15)  66409237   BRD-969Centro de Lavado Electrico                                  
+16)  42928709   QFP-254Calentador electrico instantaneo                            
+17)  26233063   UWA-476Autoradio MEX BT3150U                                       
+18)  35565959   QRC-609Camara de video EOS                                         
+19)  50375303   YJD-279Cocina a gas Florencia                                      
+20)  27912250   QFR-958Cocina a gas Bavaro                                         
+21)  88995291   MTF-868Impresora Monocromatica WorkForce M205                      
+22)  69975105   FQG-293Rapiducha Premiun                                           
+23)  76388967   PFD-286Refrigeradora cap. 415 litros                               
+24)  77191257   ZWF-661Impresora Led                                               
+25)  91897732   PFD-286Refrigeradora cap. 415 litros                               
+26)  36380447   HLR-109Parlantes inalambricos                                      
+27)  50375303   VXS-438Mouse Blue Tooth                                            
+28)  25171011   DFJ-952Cocina a gas Prestige 60 INOX                               
+29)  48184351   TXM-139Televisor LED FULL HD 3D                                    
+30)  45783712   YMU-875Cocina a gas Plermo Quarzo                                  
+31)  94080926   SPR-580Dispensador de Agua                                         
+FECHA:   30/08/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  97403853   KQQ-136Impresora Laser EPSON                                       
+02)  50365593   AFL-718Vinera                                                      
+03)  83505958   TYF-885Videojuego TW 4                                             
+04)  63437380   AWB-345Deshumedecedor DM-189H                                      
+05)  19829266   TXM-139Televisor LED FULL HD 3D                                    
+06)  32821689   ONB-903Reproductor BLU-RAY 3D                                      
+07)  96258632   QHC-492Terma Solucion                                              
+08)  69975105   WZD-331Refrigeradora ECOTT 465 IX                                  
+09)  79140840   OTH-462Lavadora Semi-Automatica                                    
+10)  87800799   GBD-525Refrigeradora Puertas Mágicas                               
+11)  62566305   GXF-122Televisor Ultra HDTV                                        
+12)  42928709   QIL-029Mini componente Shake-5                                     
+13)  23928045   TKM-141Cocina a gas Marsella                                       
+14)  32565207   TKM-141Cocina a gas Marsella                                       
+15)  26290971   GKG-558Horno Microondas MS2042D                                    
+16)  86402303   RBE-789Televisor SMART TV                                          
+17)  48184351   KQA-580Cocina Empotrable Glassy Plus                               
+18)  85949265   VRR-793Rack Giratorio 32/60                                        
+19)  15210391   DON-719Secadora de Cabello SG-3035                                 
+20)  89429489   VCL-867Cocina a gas Rubi 2                                         
+21)  35565959   JXD-139Terma Evolucion Soltu                                       
+22)  96659352   KQQ-136Impresora Laser EPSON                                       
+23)  62324793   XBD-314Cocina a gas Fassina                                        
+24)  89863424   QRC-609Camara de video EOS                                         
+25)  97403853   GBJ-693Radio CD                                                    
+26)  73185299   AVM-258Cocina a gas Toscana                                        
+27)  15210391   AQS-362Teclado Inalambrico USB                                     
+28)  45877001   KBY-991Home Theater E4100                                          
+FECHA:   22/08/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  78757121   OQI-373Cocina Empotrable Premio Plus                               
+02)  71984468   PQH-935Rack Giratorio 26/32                                        
+03)  43488351   XLF-273Centro de Lavado a Gas                                      
+04)  15210391   RSE-049Radio CD/DVD - TV                                           
+05)  78078115   XZR-640Lavadora-Secadora FWD                                       
+06)  77484838   BTO-226Friobar                                                     
+07)  25171011   OPT-996Mini componente GPX88                                       
+08)  95161027   VJI-529Horno Empotrable Electrico                                  
+09)  27912250   LWG-915Cocina a gas Murano                                         
+10)  15561764   JYQ-045Horno Microondas 1.2 p3                                     
+11)  78757121   ZXK-295Cocina Empotrable Electrica                                 
+12)  76388967   RSE-049Radio CD/DVD - TV                                           
+13)  37110873   GXF-122Televisor Ultra HDTV                                        
+14)  16151792   WZD-331Refrigeradora ECOTT 465 IX                                  
+15)  73535476   CIM-038Cocina Empotrable Petra                                     
+16)  89298238   QTK-083Congeladora Conservador Vertical 476 Lts.                   
+17)  78078115   DFF-034Grabadora de voz digital portátil con USB integrado         
+18)  77484838   YUQ-590Refrigeradora  CoolStyle 395N Steel                         
+19)  35584593   KCO-488Ventilador de pared                                         
+20)  78078115   TMJ-043Lavadora EcoBubble                                          
+21)  38913831   YZD-580Mini componente ESX8                                        
+22)  87800799   QRC-609Camara de video EOS                                         
+23)  66409237   ICX-503Cocina a gas Roma                                           
+24)  86241107   HFC-845Televisor Serie LED R555A                                   
+25)  36008913   HFC-845Televisor Serie LED R555A                                   
+26)  64394265   YYK-309Refrigeradora Door in Door                                  
+27)  32821689   ISU-815Audifonos                                                   
+28)  26290971   TZY-323Terma a gas                                                 
+29)  77191257   AVM-258Cocina a gas Toscana                                        
+30)  52097922   MMA-577Congeladora Horizontal 252 Lts.                             
+31)  84165595   QHC-492Terma Solucion                                              
+32)  93845419   NSR-955Cocina a gas Blogna                                         
+33)  27912250   LWG-915Cocina a gas Murano                                         
+34)  20864087   SPR-580Dispensador de Agua                                         
+35)  94080926   OTW-288Cavba de Vinos GE cap. 34 botellas                          
+36)  80048864   BWD-036Cocina Empotrable Klimatica                                 
+FECHA:   26/08/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  27912250   ICX-503Cocina a gas Roma                                           
+02)  86828079   MQR-442Reloj Digital RMM-29                                        
+03)  49087435   BCK-361Tablets 10.1                                                
+04)  78922174   AFL-718Vinera                                                      
+05)  11602775   JJN-837Lavadora Tecnologia Wobbie                                  
+06)  79475585   BWD-036Cocina Empotrable Klimatica                                 
+07)  17972674   UWA-476Autoradio MEX BT3150U                                       
+08)  71378466   BIT-434Campana Extractora modelo Glass                             
+09)  83505958   MQR-442Reloj Digital RMM-29                                        
+10)  77484838   AFL-718Vinera                                                      
+11)  95161027   VVS-017Tablets MW 0731                                             
+12)  54761731   DEV-433Parlantes portatiles SHOQBOX                                
+13)  45828535   QJO-060Televisor LED FULL HD                                       
+14)  83236386   OPT-996Mini componente GPX88                                       
+15)  42157219   III-576Campana Extractora Venus Plus                               
+16)  38637282   FLJ-040Parlantes portatiles SOUNDSHOOTER                           
+17)  59407188   RDT-761Horno Microondas con dorador                                
+18)  78757121   GXF-122Televisor Ultra HDTV                                        
+19)  90365520   EUZ-452Impresora Mutifuncional Led Color                           
+20)  13245501   HFC-845Televisor Serie LED R555A                                   
+21)  78757121   ARS-231Audifonos Stereos                                           
+22)  24995742   BWD-036Cocina Empotrable Klimatica                                 
+23)  86402303   OQI-373Cocina Empotrable Premio Plus                               
+24)  57690875   XLF-273Centro de Lavado a Gas                                      
+25)  94080926   CIM-038Cocina Empotrable Petra                                     
+26)  54761731   ZVA-180Refrigeradora 322 litros                                    
+27)  42157219   KWP-672Televisor UHD TV                                            
+28)  54761731   VZV-827Refrigeradora Top Mount                                     
+29)  29337157   WZD-331Refrigeradora ECOTT 465 IX                                  
+30)  73535476   KJX-387Ventilador de techo                                         
+31)  77191257   TZY-323Terma a gas                                                 
+32)  27912250   FLJ-040Parlantes portatiles SOUNDSHOOTER                           
+33)  32904023   KQQ-136Impresora Laser EPSON                                       
+34)  99842319   ZAF-449Tablet Cardle                                               
+35)  57263719   ZWF-661Impresora Led                                               
+36)  81114108   VCL-867Cocina a gas Rubi 2                                         
+37)  31611146   XSD-310Refrigeradora No frost                                      
+38)  40348917   VRR-793Rack Giratorio 32/60                                        
+39)  79901434   TXM-139Televisor LED FULL HD 3D                                    
+40)  26976877   XZG-521Secadora Electrica FAQE7001LW                               
+FECHA:   29/08/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  98140264   DFF-034Grabadora de voz digital portátil con USB integrado         
+02)  25171011   VCL-867Cocina a gas Rubi 2                                         
+03)  76388967   EBI-299Cocina a gas Fridare                                        
+04)  16552775   CNN-411Congeladora Side by Side                                    
+05)  46462527   KWP-672Televisor UHD TV                                            
+06)  79464412   NSM-283Cocina a gas FFG3053SL                                      
+07)  52097922   OWN-701Olla arrocera                                               
+08)  71463316   KCO-488Ventilador de pared                                         
+09)  77642521   DFJ-952Cocina a gas Prestige 60 INOX                               
+10)  53166028   QHC-492Terma Solucion                                              
+11)  45877001   PJG-338Impresora Mutifuncional Inalambricar                        
+12)  77484838   UDR-957Refrigeradora ECOTT 423 IXL                                 
+13)  71463316   EBI-299Cocina a gas Fridare                                        
+14)  88956889   HFM-021Horno Electrico                                             
+15)  29847168   BCK-361Tablets 10.1                                                
+16)  55552996   SJD-818Refrigeradora  CoolStyle 281A Steel                         
+17)  87800799   WZD-331Refrigeradora ECOTT 465 IX                                  
+18)  43053402   VRR-793Rack Giratorio 32/60                                        
+19)  16151792   AQS-362Teclado Inalambrico USB                                     
+20)  81114108   RBE-789Televisor SMART TV                                          
+21)  62324793   FQG-293Rapiducha Premiun                                           
+22)  87800799   BTO-226Friobar                                                     
+23)  44229880   SNY-500Cocina a gas Praga Quarzo                                   
+24)  20864087   YUQ-590Refrigeradora  CoolStyle 395N Steel                         
+25)  31193794   BXY-119Cocina Empotrable Klimatica                                 
+26)  86241107   FEG-454Sillon masajeador                                           
+27)  95161027   FQG-293Rapiducha Premiun                                           
+28)  69639726   DON-719Secadora de Cabello SG-3035                                 
+29)  53166028   ONB-903Reproductor BLU-RAY 3D                                      
+30)  45828535   YMU-875Cocina a gas Plermo Quarzo                                  
+31)  71378466   XSD-310Refrigeradora No frost                                      
+FECHA:   25/08/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  57263719   TZY-323Terma a gas                                                 
+02)  87800799   KWP-672Televisor UHD TV                                            
+03)  35565959   CIM-038Cocina Empotrable Petra                                     
+04)  77642521   QUU-384Lavavajilla Blue Touch                                      
+05)  79901434   AHB-459Reproductor DVD Portatil TV 7                               
+06)  67418025   QUU-384Lavavajilla Blue Touch                                      
+07)  79140840   TYF-885Videojuego TW 4                                             
+08)  11602775   XLF-273Centro de Lavado a Gas                                      
+09)  62566305   DIQ-718Horno Microondas de Conveccion Cello                        
+10)  40348917   SNY-500Cocina a gas Praga Quarzo                                   
+11)  83236386   MTF-868Impresora Monocromatica WorkForce M205                      
+12)  52097922   GBD-525Refrigeradora Puertas Mágicas                               
+13)  16151792   CNQ-172Congeladora Horizontal 364 Lts.                             
+14)  32821689   MMA-577Congeladora Horizontal 252 Lts.                             
+15)  26976877   JXD-139Terma Evolucion Soltu                                       
+16)  73535476   LDR-510Mini componente ESX9                                        
+17)  96258632   EBI-299Cocina a gas Fridare                                        
+18)  62324793   YJD-279Cocina a gas Florencia                                      
+19)  13245501   ZWF-661Impresora Led                                               
+20)  87800799   ICX-503Cocina a gas Roma                                           
+21)  73786035   AQS-362Teclado Inalambrico USB                                     
+22)  58187172   KBY-991Home Theater E4100                                          
+23)  71378466   OQI-373Cocina Empotrable Premio Plus                               
+24)  88995291   HLR-109Parlantes inalambricos                                      
+25)  95751208   BWD-036Cocina Empotrable Klimatica                                 
+26)  87800799   EUZ-452Impresora Mutifuncional Led Color                           
+27)  57263719   YOT-530Deshumedecedor DM-190H                                      
+28)  93845419   AWB-345Deshumedecedor DM-189H                                      
+29)  19829266   UXG-019Terma de acumulacion                                        
+30)  93160528   DUG-251Cocina a gas FFG3047SL                                      
+31)  50375303   SJQ-827Reproductor Multimedia Touch Screen                         
+32)  42798099   RDT-761Horno Microondas con dorador                                
+33)  49087435   AFL-718Vinera                                                      
+34)  45783712   SNY-500Cocina a gas Praga Quarzo                                   
+35)  77484838   YGV-332Impresora Led Color                                         
+FECHA:   31/08/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  35584593   SSD-176Refrigeradora Linea Gallery                                 
+02)  73185299   OTH-462Lavadora Semi-Automatica                                    
+03)  45783712   YUQ-590Refrigeradora  CoolStyle 395N Steel                         
+04)  62324793   LDR-510Mini componente ESX9                                        
+05)  37110873   QUU-384Lavavajilla Blue Touch                                      
+06)  71463316   AWT-354Galaxy Gear                                                 
+07)  46462527   LWG-915Cocina a gas Murano                                         
+08)  87800799   VRR-793Rack Giratorio 32/60                                        
+09)  25171011   AWB-345Deshumedecedor DM-189H                                      
+10)  22777006   FCN-617Televisor Plasma 60                                         
+11)  90237332   QFP-254Calentador electrico instantaneo                            
+12)  48467976   JDQ-505Lavadora Modelo Aquamatic                                   
+13)  45828535   XSD-310Refrigeradora No frost                                      
+14)  90365520   KBY-991Home Theater E4100                                          
+15)  54716824   UDR-957Refrigeradora ECOTT 423 IXL                                 
+16)  37110873   VDD-853Deshumedecedor  FAD30D7TSSW 3.4L 25-30m2                    
+17)  54716824   ZEX-027Tablet Xperia Z                                             
+18)  81114108   DFF-034Grabadora de voz digital portátil con USB integrado         
+19)  64394265   OFS-384Parlantes Bluetooth                                         
+20)  42798099   CNN-411Congeladora Side by Side                                    
+21)  13245501   QIL-029Mini componente Shake-5                                     
+22)  86402303   HFM-021Horno Electrico                                             
+23)  89148118   EBI-299Cocina a gas Fridare                                        
+24)  87813843   OQI-373Cocina Empotrable Premio Plus                               
+25)  93845419   QIL-029Mini componente Shake-5                                     
+26)  67418025   FEG-454Sillon masajeador                                           
+27)  69975105   TMJ-043Lavadora EcoBubble                                          
+28)  97403853   YJD-279Cocina a gas Florencia                                      
+FECHA:   05/09/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  60574154   BWD-036Cocina Empotrable Klimatica                                 
+02)  13245501   XOA-735Congeladora Vertical 392 Lts.                               
+03)  46462527   KCO-488Ventilador de pared                                         
+04)  93845419   CIM-038Cocina Empotrable Petra                                     
+05)  63437380   KQA-580Cocina Empotrable Glassy Plus                               
+06)  54716824   SPR-580Dispensador de Agua                                         
+07)  55552996   UXG-019Terma de acumulacion                                        
+08)  42798099   AQS-362Teclado Inalambrico USB                                     
+09)  80048864   RDT-761Horno Microondas con dorador                                
+10)  43877279   TYF-885Videojuego TW 4                                             
+11)  98589725   VRR-793Rack Giratorio 32/60                                        
+12)  22280452   XSD-310Refrigeradora No frost                                      
+13)  16151792   TZY-323Terma a gas                                                 
+14)  89298238   JXD-139Terma Evolucion Soltu                                       
+15)  12663268   BMJ-772Refrigeradora Side by Side                                  
+16)  64394265   YUQ-590Refrigeradora  CoolStyle 395N Steel                         
+17)  76388967   DOV-560Impresora Laser Mutifuncion Monocromatica                   
+18)  69324480   VJI-529Horno Empotrable Electrico                                  
+19)  73914283   BRD-969Centro de Lavado Electrico                                  
+20)  62566305   CNQ-172Congeladora Horizontal 364 Lts.                             
+21)  13245501   KJX-387Ventilador de techo                                         
+22)  89298238   ICX-503Cocina a gas Roma                                           
+23)  67418025   YYU-726Reproductor DVD Portatil                                    
+FECHA:   23/08/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  31193794   JDC-028Puntero Laser                                               
+02)  89148118   TKM-141Cocina a gas Marsella                                       
+03)  29337157   QHC-492Terma Solucion                                              
+04)  90237332   PFD-286Refrigeradora cap. 415 litros                               
+05)  89298238   PFD-286Refrigeradora cap. 415 litros                               
+06)  55552996   AQS-362Teclado Inalambrico USB                                     
+07)  81114108   BCN-855Cocina a gas Bahia Can                                      
+08)  22280452   VRR-793Rack Giratorio 32/60                                        
+09)  69324480   VXS-438Mouse Blue Tooth                                            
+10)  79464412   MTF-868Impresora Monocromatica WorkForce M205                      
+11)  93160528   BRD-969Centro de Lavado Electrico                                  
+12)  43488351   QTK-083Congeladora Conservador Vertical 476 Lts.                   
+13)  93160528   QTK-083Congeladora Conservador Vertical 476 Lts.                   
+14)  76388967   CNQ-172Congeladora Horizontal 364 Lts.                             
+15)  89298238   YOT-530Deshumedecedor DM-190H                                      
+16)  89429489   QUU-384Lavavajilla Blue Touch                                      
+17)  50365593   ZVA-180Refrigeradora 322 litros                                    
+18)  83236386   OFS-384Parlantes Bluetooth                                         
+19)  81114108   OFS-384Parlantes Bluetooth                                         
+20)  23928045   LWG-915Cocina a gas Murano                                         
+21)  73185299   QFP-254Calentador electrico instantaneo                            
+22)  78922174   XBD-314Cocina a gas Fassina                                        
+23)  87813843   LDR-510Mini componente ESX9                                        
+24)  78078115   PJG-338Impresora Mutifuncional Inalambricar                        
+25)  79372768   SAM-013Cocina a gas FFG3047SL                                      
+26)  64394265   OTW-288Cavba de Vinos GE cap. 34 botellas                          
+27)  77642521   YYU-726Reproductor DVD Portatil                                    
+28)  12663268   QFP-254Calentador electrico instantaneo                            
+FECHA:   02/09/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  86828079   QIL-029Mini componente Shake-5                                     
+02)  79901434   OBI-353Terma Milenium                                              
+03)  20864087   BXY-119Cocina Empotrable Klimatica                                 
+04)  37110873   SSD-176Refrigeradora Linea Gallery                                 
+05)  41036366   SJD-818Refrigeradora  CoolStyle 281A Steel                         
+06)  98140264   BRD-969Centro de Lavado Electrico                                  
+07)  84165595   RDT-761Horno Microondas con dorador                                
+08)  50365593   JDC-028Puntero Laser                                               
+09)  15210391   TZY-323Terma a gas                                                 
+10)  95161027   III-576Campana Extractora Venus Plus                               
+11)  20864087   JFC-432DVD DVM-L79                                                 
+12)  50375303   AFL-718Vinera                                                      
+13)  42928709   OQI-373Cocina Empotrable Premio Plus                               
+14)  43053402   MMA-577Congeladora Horizontal 252 Lts.                             
+15)  78922174   EJW-346Campana Extractora                                          
+16)  98140264   CJE-310Mini componente GPX33                                       
+17)  94080926   TXM-139Televisor LED FULL HD 3D                                    
+18)  20864087   JDQ-505Lavadora Modelo Aquamatic                                   
+19)  66409237   DFF-034Grabadora de voz digital portátil con USB integrado         
+20)  66409237   AWT-354Galaxy Gear                                                 
+21)  88956889   MYC-756Cocina a gas Leganza INOX                                   
+22)  24995742   DON-719Secadora de Cabello SG-3035                                 
+23)  88956889   UWA-476Autoradio MEX BT3150U                                       
+24)  32904023   QFP-254Calentador electrico instantaneo                            
+25)  89298238   YOT-530Deshumedecedor DM-190H                                      
+26)  79372768   GLC-370Video Proyector Power Lite 95                               
+27)  32821689   MTF-868Impresora Monocromatica WorkForce M205                      
+28)  59407188   LYZ-614Impresore Mutifuncional Expression XP-211                   
+29)  55552996   QTK-083Congeladora Conservador Vertical 476 Lts.                   
+30)  50365593   TMN-884Secadora de mano                                            
+31)  15210391   VXS-438Mouse Blue Tooth                                            
+32)  33397650   VJI-529Horno Empotrable Electrico                                  
+33)  13245501   BXY-119Cocina Empotrable Klimatica                                 
+34)  69324480   DIQ-718Horno Microondas de Conveccion Cello                        
+35)  78078115   DFJ-952Cocina a gas Prestige 60 INOX                               
+36)  29337157   HFM-021Horno Electrico                                             
+37)  77191257   KWP-672Televisor UHD TV                                            
+38)  89863424   FVB-607Cocina a gas Essenza BL                                     
+39)  79420973   GXF-122Televisor Ultra HDTV                                        
+40)  33713901   UWA-476Autoradio MEX BT3150U                                       
+41)  90237332   TKM-141Cocina a gas Marsella                                       
+42)  89429489   BXY-119Cocina Empotrable Klimatica                                 
+43)  90365520   VDD-853Deshumedecedor  FAD30D7TSSW 3.4L 25-30m2                    
+44)  79372768   EUZ-452Impresora Mutifuncional Led Color                           
+45)  53166028   TXM-139Televisor LED FULL HD 3D                                    
+46)  45783712   SSD-176Refrigeradora Linea Gallery                                 
+47)  57263719   DOV-560Impresora Laser Mutifuncion Monocromatica                   
+48)  40348917   DFJ-952Cocina a gas Prestige 60 INOX                               
+49)  79140840   QRC-609Camara de video EOS                                         
+FECHA:   21/08/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  57690875   CSZ-863Video Filmadora                                             
+02)  11602775   CIM-038Cocina Empotrable Petra                                     
+03)  29337157   ZEX-027Tablet Xperia Z                                             
+04)  49087435   VDD-853Deshumedecedor  FAD30D7TSSW 3.4L 25-30m2                    
+05)  62566305   TYF-885Videojuego TW 4                                             
+06)  45877001   VVS-017Tablets MW 0731                                             
+07)  83505958   EJW-346Campana Extractora                                          
+08)  98140264   QHC-492Terma Solucion                                              
+09)  40348917   WZD-331Refrigeradora ECOTT 465 IX                                  
+10)  90365520   KWP-672Televisor UHD TV                                            
+11)  45783712   QFR-958Cocina a gas Bavaro                                         
+12)  49087435   SJQ-827Reproductor Multimedia Touch Screen                         
+13)  89429489   VXS-438Mouse Blue Tooth                                            
+14)  17913944   IHG-413Parlant Y pedestal PAM-83                                   
+15)  81114108   VRR-793Rack Giratorio 32/60                                        
+16)  90237332   PVZ-181Ventilador circular                                         
+17)  40348917   FLJ-040Parlantes portatiles SOUNDSHOOTER                           
+18)  37110873   UWA-476Autoradio MEX BT3150U                                       
+19)  55552996   FQG-293Rapiducha Premiun                                           
+20)  85949265   TMJ-043Lavadora EcoBubble                                          
+21)  71463316   QFP-254Calentador electrico instantaneo                            
+22)  26233063   ZAF-449Tablet Cardle                                               
+23)  90365520   OPJ-039Secadora de Ropa                                            
+24)  69639726   OPT-996Mini componente GPX88                                       
+25)  49087435   PJG-338Impresora Mutifuncional Inalambricar                        
+26)  79140840   TMN-884Secadora de mano                                            
+27)  91897732   WLL-607Cocina Electronica Convencion                               
+28)  71984468   JJN-837Lavadora Tecnologia Wobbie                                  
+29)  15210391   HFM-021Horno Electrico                                             
+30)  17972674   UTN-601Autoradio XAV-601 BT                                        
+31)  49087435   XZR-640Lavadora-Secadora FWD                                       
+32)  25171011   VCL-867Cocina a gas Rubi 2                                         
+33)  85949265   YUQ-590Refrigeradora  CoolStyle 395N Steel                         
+34)  43043986   TXM-139Televisor LED FULL HD 3D                                    
+35)  38913831   JFC-432DVD DVM-L79                                                 
+36)  11602775   TMJ-043Lavadora EcoBubble                                          
+37)  17913944   YJD-279Cocina a gas Florencia                                      
+38)  81114108   DUG-251Cocina a gas FFG3047SL                                      
+39)  50365593   TZY-323Terma a gas                                                 
+40)  32904023   SAM-013Cocina a gas FFG3047SL                                      
+41)  40112594   EBI-299Cocina a gas Fridare                                        
+42)  44229880   HLR-109Parlantes inalambricos                                      
+43)  58187172   VXS-438Mouse Blue Tooth                                            
+44)  15561764   RAH-420Cocina a gas Pro 6550 INOX                                  
+45)  95161027   TZY-323Terma a gas                                                 
+46)  77191257   BWD-036Cocina Empotrable Klimatica                                 
+47)  32565207   ZWF-661Impresora Led                                               
+FECHA:   01/09/2023
+====================================================================================================
+No.  DNI                 Producto            Cantidad       Precio         Total de ingresos
+----------------------------------------------------------------------------------------------------
+01)  28390487   GLC-370Video Proyector Power Lite 95                               
+02)  84165595   DFJ-952Cocina a gas Prestige 60 INOX                               
+03)  50365593   LWG-915Cocina a gas Murano                                         
+04)  83236386   UJV-290Cocina a gas Fassina Plus                                   
+05)  73185299   QHC-492Terma Solucion                                              
+06)  13245501   VXS-438Mouse Blue Tooth                                            
+07)  42798099   TMN-884Secadora de mano                                            
+08)  32904023   DUG-251Cocina a gas FFG3047SL                                      
+09)  96659352   ADX-669Refrigeradora cap. 220 litros                               
+10)  89148118   AFL-718Vinera                                                      
+11)  77191257   QVJ-982Horno Microondas 0.7 p3                                     
+12)  91897732   XZR-640Lavadora-Secadora FWD                                       
+13)  93160528   YYU-726Reproductor DVD Portatil                                    
+14)  89298238   UJV-290Cocina a gas Fassina Plus                                   
+15)  43488351   DIQ-718Horno Microondas de Conveccion Cello                        
+16)  78078115   FQG-293Rapiducha Premiun                                           
+17)  43043986   SSD-176Refrigeradora Linea Gallery                                 
+18)  40348917   BMJ-772Refrigeradora Side by Side                                  
+19)  78922174   XBD-314Cocina a gas Fassina                                        
+20)  35565959   BZS-261Cocina a gas Trento                                         
+21)  87813843   XSD-310Refrigeradora No frost                                      
+22)  17913944   DEN-125Rack Fijo 26/32                                             
+23)  79420973   SSE-115Refrigeradora  CoolStyle 311N Steel                         
+24)  16151792   IDO-503Laptop GamerVictus de 15.6                                  
+25)  22280452   UCX-285Galaxy Tab 3                                                
+26)  71984468   TZY-323Terma a gas                                                 
+27)  19829266   RDT-761Horno Microondas con dorador                                
+28)  86241107   UXG-019Terma de acumulacion                                        
+29)  84165595   HFM-021Horno Electrico                                             
+30)  31611146   FVQ-662Cocina a gas Pro 6300 INOX                                  
+31)  77191257   ZEX-027Tablet Xperia Z                                             
+32)  41036366   QVJ-982Horno Microondas 0.7 p3                                     
+33)  79140840   JXD-139Terma Evolucion Soltu                                       
+34)  49087435   III-576Campana Extractora Venus Plus                               

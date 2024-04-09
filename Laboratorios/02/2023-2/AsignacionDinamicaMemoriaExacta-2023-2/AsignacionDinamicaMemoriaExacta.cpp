@@ -97,7 +97,7 @@ void lecturaDePedidos(const char *filename, int *&fechaPedidos,
         char ***&codigoPedidos, int ***&dniCantPedidos){
     ifstream file = abrirArchivoLectura(filename);
     int dni, cantidad, dd, mm, aaaa, fecha, posicion, bufferFechas[600], n = 0;
-    int **bufferCantPedidos[600], numPedido[600];
+    int **bufferCantPedidos[600], numPedidos[600];
     char *codigo, **bufferCodigoPedidos[600], c;
     while(true){
         codigo = leerCadenaExacta(file, 8, ',');
@@ -108,10 +108,13 @@ void lecturaDePedidos(const char *filename, int *&fechaPedidos,
         posicion = buscarFecha(bufferFechas, fecha, n);
         if(posicion == -1){
             agregarFecha(bufferCantPedidos, bufferCodigoPedidos, bufferFechas, 
-                    fecha, numPedido, n, posicion);
+                    fecha, numPedidos, n, posicion);
         }
-        
+        agregarPedido(bufferCodigoPedidos[posicion], bufferCantPedidos[posicion],
+                numPedidos[posicion], dni, cantidad, codigo);
     }
+    cargarArreglos(fechaPedidos, codigoPedidos, dniCantPedidos, bufferFechas,
+            bufferCodigoPedidos, bufferCantPedidos, numPedidos, n);
 }
 
 int buscarFecha(int *bufferFechas, int fecha, int &n){
@@ -131,7 +134,119 @@ void agregarFecha(int ***bufferCantPedidos, char ***bufferCodigoPedidos,
     n++;
 }
 
+void agregarPedido(char **bufferCodigoPedidos, int **bufferCantPedidos,
+                int &numPedidos, int dni, int cantidad, char *codigo){
+    int *aux;
+    bufferCantPedidos[numPedidos] = new int[2];
+    aux = bufferCantPedidos[numPedidos];
+    aux[0] = dni;
+    aux[1] = cantidad;
+    bufferCodigoPedidos[numPedidos] = codigo;
+    numPedidos++;
+}
+
+void cargarArreglos(int *&fechaPedidos, char ***&codigoPedidos, 
+        int ***&dniCantPedidos, int *bufferFechas, char ***bufferCodigoPedidos, 
+        int ***bufferCantPedidos, int *numPedidos, int n){
+    fechaPedidos = new int[n+1];
+    codigoPedidos = new char**[n];
+    dniCantPedidos = new int**[n];
+    for (int i = 0; i < n; i++){
+        fechaPedidos[i] = bufferFechas[i];
+        codigoPedidos[i] = new char*[numPedidos[i]+1];
+        dniCantPedidos[i] = new int*[numPedidos[i]];
+        cargarInterno(codigoPedidos[i], dniCantPedidos[i],bufferCodigoPedidos[i],
+                bufferCantPedidos[i], numPedidos[i]);
+        delete bufferCodigoPedidos[i];
+        delete bufferCantPedidos[i];
+    }
+    fechaPedidos[n] = 0;
+}
+
+void cargarInterno(char **&codigoPedidos, int **&dniCantPedidos, 
+        char **bufferCodigoPedidos, int **bufferCantPedidos, int numPedidos){
+    for (int i = 0; i < numPedidos; i++){
+        codigoPedidos[i] = bufferCodigoPedidos[i];
+        dniCantPedidos[i] = bufferCantPedidos[i];
+    }
+    codigoPedidos[numPedidos] = nullptr;
+}
+
 void pruebaDeLecturaDePedidos(const char *filename, int *fechaPedidos, 
         char ***codigoPedidos, int ***dniCantPedidos){
-    
+    ofstream file = abrirArchivoEscritura(filename);
+    if(!file){
+        cout << "No se pudo abrir el archivo";
+        exit(1);
+    }
+    char **auxCodigos;
+    int **auxDni, *auxDniCant;
+    for(int i=0; fechaPedidos[i] != 0; i++){
+        file << fechaPedidos[i] << endl;
+        auxCodigos = codigoPedidos[i];
+        auxDni = dniCantPedidos[i];
+        for(int j=0; auxCodigos[j] != nullptr; j++){
+            auxDniCant = auxDni[j];
+            file << setw(10) << auxCodigos[j] << setw(15) << auxDniCant[0] << " " 
+                 << auxDniCant[1] << endl;
+        }
+        file << endl;    
+    }
+}
+
+void reporteDeEnvioDePedidos(const char* filename, char ***productos, int *&stock,
+            double *precios, int *fechaPedidos, char ***codigoPedidos, 
+        int ***dniCantPedidos){
+    ofstream file = abrirArchivoEscritura(filename);
+    file << setw(35) << " "<< "REPORTE DE ENTREGA DE PEDIDOS" << endl;
+    imprimirLinea('=', 100, file);
+    for(int i = 0; fechaPedidos[i] != 0; i++){
+        imprimirFecha(fechaPedidos[i], file);
+        imprimirProductos(codigoPedidos[i], dniCantPedidos[i], productos, precios, 
+                stock, file);
+    }
+    file.close();
+}
+
+void imprimirProductos(char **codigoPedidos, int **dniCantPedidos, char ***productos, 
+        double *precios, int *&stock, ofstream &file){
+    int *auxDniCant, posicion;
+    char **aux;
+    for(int i = 0; codigoPedidos[i] != nullptr; i++){
+        auxDniCant = dniCantPedidos[i];
+        file.fill('0');
+        file << right << setw(2) << i+1 << ")";
+        file.fill(' ');
+        file << setw(10) << auxDniCant[0] << setw(10) << codigoPedidos[i];
+        posicion = buscarProducto(productos, codigoPedidos[i]);
+        aux = productos[posicion];
+        file << left << setw(60) << aux[1] << endl;
+    }
+}
+
+int buscarProducto(char ***productos, char *codigo){
+    char **aux;
+    for(int i = 0; productos[i] != nullptr; i++){
+        aux = productos[i];
+        if(strcmp(aux[0], codigo) == 0) return i;
+    }
+    return -1;
+}
+
+void imprimirFecha(int fecha, ofstream &file){
+    int dd, mm, aaaa;
+    dd = fecha%100;
+    fecha /= 100;
+    mm = fecha%100;
+    fecha /= 100;
+    aaaa = fecha;
+    file.fill('0');
+    file << right << "FECHA:   " << setw(2) << dd << "/" << setw(2) << mm << "/" 
+            << aaaa << endl;
+    imprimirLinea('=', 100, file);
+    file.fill(' ');
+    file << left << setw(5) << "No." << setw(20) << "DNI" << setw(20) << "Producto"
+            << setw(15) << "Cantidad" << setw(15) << "Precio" << 
+            "Total de ingresos" << endl;
+    imprimirLinea('-', 100, file);
 }

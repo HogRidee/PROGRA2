@@ -19,7 +19,8 @@ int main(int argc, char** argv) {
     lecturaDePedidos("Pedidos.csv", fechaPedidos, codigoPedidos, dniCantPedidos);
     pruebaDeLecturaDePedidos("ReporteDePedidos.txt", fechaPedidos, codigoPedidos,
             dniCantPedidos);
-    
+    reporteDeEnvioDePedidos("ReporteDeEntregaDePedidos.txt", productos, stock,
+            precios, fechaPedidos, codigoPedidos, dniCantPedidos);
     return 0;
 }
 
