@@ -22,7 +22,7 @@ char* leerCadenaExacta(ifstream &, int , char );
 void pruebaDeLecturaDeProductos(const char *, char ***, int *, double *);
 ofstream abrirArchivoEscritura(const char *);
 void imprimirLinea(char , int , ofstream &);
-void lecturaDePedidos(const char *, int *, char ***, int ***);
+void lecturaDePedidos(const char *, int *&, char ***&, int ***&);
 int buscarFecha(int *, int , int &);
 void agregarFecha(int ***, char ***, int *, int , int *, int &, int &);
 void pruebaDeLecturaDePedidos(const char *, int *, char ***, int ***);

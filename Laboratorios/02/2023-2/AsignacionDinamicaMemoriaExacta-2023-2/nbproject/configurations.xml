@@ -27,6 +27,7 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>Pedidos.csv</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -44,6 +45,8 @@
             flavor2="0">
       </item>
       <item path="AsignacionDinamicaMemoriaExacta.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pedidos.csv" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -74,6 +77,8 @@
             flavor2="0">
       </item>
       <item path="AsignacionDinamicaMemoriaExacta.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pedidos.csv" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>

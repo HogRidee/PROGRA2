@@ -15,10 +15,10 @@ void lecturaDeProductos(const char *filename, char ***&productos, int *&stock,
         file.ignore();
         n++;
     }
-    productos = new char**[n+1];
+    productos = new char**[n+1]{}; //{} inicializa en nullptr
     stock = new int[n];
     precios = new double[n];
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n; i++){ 
         stock[i] = bufferStock[i];
         precios[i] = bufferPrecios[i];
         productos[i] = bufferProductos[i];
@@ -93,8 +93,8 @@ void imprimirLinea(char c, int n, ofstream &file){
     file.put('\n');
 }
 
-void lecturaDePedidos(const char *filename, int *fechaPedidos, 
-        char ***codigoPedidos, int ***dniCantPedidos){
+void lecturaDePedidos(const char *filename, int *&fechaPedidos, 
+        char ***&codigoPedidos, int ***&dniCantPedidos){
     ifstream file = abrirArchivoLectura(filename);
     int dni, cantidad, dd, mm, aaaa, fecha, posicion, bufferFechas[600], n = 0;
     int **bufferCantPedidos[600], numPedido[600];
@@ -103,7 +103,7 @@ void lecturaDePedidos(const char *filename, int *fechaPedidos,
         codigo = leerCadenaExacta(file, 8, ',');
         if(file.eof()) break;
         file >> dni >> c >> cantidad >> c >> dd >> c >> mm >> c >> aaaa;
-        file.ignore();
+        file.ignore();  
         fecha = aaaa*10000 + mm*100 + dd;
         posicion = buscarFecha(bufferFechas, fecha, n);
         if(posicion == -1){
