@@ -24,7 +24,7 @@ ofstream abrirArchivoEscritura(const char *);
 void imprimirLinea(char , int , ofstream &);
 void lecturaDePedidos(const char *, int *, char ***, int ***);
 int buscarFecha(int *, int , int &);
-void agregarFecha(int ***, char ***, int *, int , int *, int &);
+void agregarFecha(int ***, char ***, int *, int , int *, int &, int &);
 void pruebaDeLecturaDePedidos(const char *, int *, char ***, int ***);
 
 #endif /* ASIGNACIONDINAMICAMEMORIAEXACTA_H */

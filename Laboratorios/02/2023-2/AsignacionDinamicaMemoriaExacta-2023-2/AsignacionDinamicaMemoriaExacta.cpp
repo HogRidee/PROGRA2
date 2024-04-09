@@ -108,8 +108,9 @@ void lecturaDePedidos(const char *filename, int *fechaPedidos,
         posicion = buscarFecha(bufferFechas, fecha, n);
         if(posicion == -1){
             agregarFecha(bufferCantPedidos, bufferCodigoPedidos, bufferFechas, 
-                    fecha, numPedido, n);
+                    fecha, numPedido, n, posicion);
         }
+        
     }
 }
 
@@ -121,8 +122,13 @@ int buscarFecha(int *bufferFechas, int fecha, int &n){
 }
 
 void agregarFecha(int ***bufferCantPedidos, char ***bufferCodigoPedidos, 
-        int *bufferFechas, int fecha, int *numPedido, int &n){
-    
+        int *bufferFechas, int fecha, int *numPedido, int &n, int &posicion){
+    bufferFechas[n] = fecha;
+    bufferCodigoPedidos[n] = new char*[600];
+    bufferCantPedidos[n] = new int*[600];
+    numPedido[n] = 0;
+    posicion = n;
+    n++;
 }
 
 void pruebaDeLecturaDePedidos(const char *filename, int *fechaPedidos, 
