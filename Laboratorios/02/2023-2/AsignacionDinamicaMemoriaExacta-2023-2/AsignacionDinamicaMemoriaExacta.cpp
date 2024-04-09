@@ -120,6 +120,11 @@ int buscarFecha(int *bufferFechas, int fecha, int &n){
     return -1;
 }
 
+void agregarFecha(int ***bufferCantPedidos, char ***bufferCodigoPedidos, 
+        int *bufferFechas, int fecha, int *numPedido, int &n){
+    
+}
+
 void pruebaDeLecturaDePedidos(const char *filename, int *fechaPedidos, 
         char ***codigoPedidos, int ***dniCantPedidos){
     
