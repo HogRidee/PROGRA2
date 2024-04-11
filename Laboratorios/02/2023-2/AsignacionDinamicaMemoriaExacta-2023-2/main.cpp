@@ -21,6 +21,8 @@ int main(int argc, char** argv) {
             dniCantPedidos);
     reporteDeEnvioDePedidos("ReporteDeEntregaDePedidos.txt", productos, stock,
             precios, fechaPedidos, codigoPedidos, dniCantPedidos);
+    pruebaDeLecturaDeProductos("ReporteDeProductosFinal.txt", productos, stock, 
+            precios);
     return 0;
 }
 
