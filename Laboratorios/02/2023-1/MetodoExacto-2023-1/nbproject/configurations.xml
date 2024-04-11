@@ -4,6 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>MetodoDinamicoExacto.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,6 +13,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>MetodoDinamicoExacto.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -39,6 +41,10 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="MetodoDinamicoExacto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MetodoDinamicoExacto.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="alumnos.csv" ex="false" tool="3" flavor2="0">
       </item>
       <item path="alumnos_cursos.csv" ex="false" tool="3" flavor2="0">
@@ -68,6 +74,10 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="MetodoDinamicoExacto.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MetodoDinamicoExacto.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="alumnos.csv" ex="false" tool="3" flavor2="0">
       </item>
       <item path="alumnos_cursos.csv" ex="false" tool="3" flavor2="0">
