@@ -198,30 +198,68 @@ void reporteDeEnvioDePedidos(const char* filename, char ***productos, int *&stoc
             double *precios, int *fechaPedidos, char ***codigoPedidos, 
         int ***dniCantPedidos){
     ofstream file = abrirArchivoEscritura(filename);
-    file << setw(35) << " "<< "REPORTE DE ENTREGA DE PEDIDOS" << endl;
-    imprimirLinea('=', 100, file);
+    double totalIngresos = 0, totalPerdidas = 0;
+    file << setw(55) << " "<< "REPORTE DE ENTREGA DE PEDIDOS" << endl;
+    imprimirLinea('=', 140, file);
     for(int i = 0; fechaPedidos[i] != 0; i++){
         imprimirFecha(fechaPedidos[i], file);
         imprimirProductos(codigoPedidos[i], dniCantPedidos[i], productos, precios, 
-                stock, file);
+                stock, file, totalIngresos, totalPerdidas);
     }
+    imprimirResumenFinal(file, totalIngresos, totalPerdidas);
     file.close();
 }
 
+void imprimirResumenFinal(ofstream &file, double totalIngresos, double totalPerdidas){
+    file << "Resumen de ingresos" << endl;
+    file << left << setw(123) << "Total de ingresos en el periodo:" << right 
+            << setw(10) << totalIngresos << endl;
+    file << left << setw(123) <<"Total perdido por falta de stock:" << 
+            right << setw(10) << totalPerdidas << endl;
+    imprimirLinea('=', 140, file);
+}
+
 void imprimirProductos(char **codigoPedidos, int **dniCantPedidos, char ***productos, 
-        double *precios, int *&stock, ofstream &file){
+        double *precios, int *&stock, ofstream &file, double &ingresosFinal,
+        double &perdidasFinal){
     int *auxDniCant, posicion;
+    double ingresos, totalIngresos = 0, totalPerdidas = 0;
     char **aux;
     for(int i = 0; codigoPedidos[i] != nullptr; i++){
         auxDniCant = dniCantPedidos[i];
         file.fill('0');
         file << right << setw(2) << i+1 << ")";
         file.fill(' ');
-        file << setw(10) << auxDniCant[0] << setw(10) << codigoPedidos[i];
+        file << setw(10) << auxDniCant[0] << setw(12) << codigoPedidos[i];
         posicion = buscarProducto(productos, codigoPedidos[i]);
         aux = productos[posicion];
-        file << left << setw(60) << aux[1] << endl;
+        file << left << setw(3) << " " << setw(60) << aux[1];
+        file << right << setw(8) << auxDniCant[1];
+        file << fixed << setprecision(2);
+        file << right << setw(15) << precios[posicion];
+        ingresos = auxDniCant[1]*precios[posicion];
+        if(stock[posicion] >= auxDniCant[1]){
+            totalIngresos += ingresos;
+            file << right << setw(22) << ingresos << endl;
+            stock[posicion] -= auxDniCant[1];
+        }
+        else{
+            totalPerdidas += ingresos;
+            file << right << setw(22) << "NO HAY STOCK" << endl;
+        }
     }
+    imprimirResumen(file, totalIngresos, totalPerdidas);
+    ingresosFinal += totalIngresos;
+    perdidasFinal += totalPerdidas;
+}
+
+void imprimirResumen(ofstream &file, double totalIngresos, double totalPerdidas){
+    imprimirLinea('-', 140, file);
+    file << left << setw(123) << "Total ingresado:" << right << setw(10) << 
+            totalIngresos << endl;
+    file << left << setw(123) <<"Total perdido por falta de stock:" << 
+            right << setw(10) << totalPerdidas << endl;
+    imprimirLinea('=', 140, file);
 }
 
 int buscarProducto(char ***productos, char *codigo){
@@ -243,10 +281,10 @@ void imprimirFecha(int fecha, ofstream &file){
     file.fill('0');
     file << right << "FECHA:   " << setw(2) << dd << "/" << setw(2) << mm << "/" 
             << aaaa << endl;
-    imprimirLinea('=', 100, file);
+    imprimirLinea('=', 140, file);
     file.fill(' ');
-    file << left << setw(5) << "No." << setw(20) << "DNI" << setw(20) << "Producto"
+    file << left << setw(5) << "No." << setw(20) << "DNI" << setw(65) << "Producto"
             << setw(15) << "Cantidad" << setw(15) << "Precio" << 
             "Total de ingresos" << endl;
-    imprimirLinea('-', 100, file);
+    imprimirLinea('-', 140, file);
 }

@@ -32,7 +32,10 @@ void cargarInterno(char **&, int **&, char **, int **, int );
 void pruebaDeLecturaDePedidos(const char *, int *, char ***, int ***);
 void reporteDeEnvioDePedidos(const char* , char ***, int *&, double *, int *, 
         char ***, int ***);
-void imprimirProductos(char **, int **, char ***, double *, int *&, ofstream &);
+void imprimirResumenFinal(ofstream &, double , double );
+void imprimirProductos(char **, int **, char ***, double *, int *&, ofstream &,
+        double &, double &);
+void imprimirResumen(ofstream &, double , double );
 int buscarProducto(char ***, char *);
 void imprimirFecha(int , ofstream &);
 
