@@ -1,0 +1,6 @@
+METODO DE ASIGNACIÓN DE MEMORIA POR INCREMENTOS
+Se continuó el ejercicio de la clase 06 asignación por incrementos
+Array Cursos por incrementos
+PUNTERO GENÉRICO
+Def
+Ejemplo genérico

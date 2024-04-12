@@ -39,13 +39,12 @@ void leerDatosArchivo(int *&parray, int &n){
         parray[n] = dato;
         n++;
     }
-    
     file.close();
 }
 
 void test(){
     int *parray = nullptr;
-    int n;
+    int n = 0;
     leerDatosArchivo(parray, n);
     for(int i = 0; i < n; i++){
         cout << parray[i] << endl;

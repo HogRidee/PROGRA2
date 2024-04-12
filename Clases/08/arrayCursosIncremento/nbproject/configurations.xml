@@ -4,6 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>funciones.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -25,7 +26,6 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
-    <itemPath>datos.txt</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -37,7 +37,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="datos.txt" ex="false" tool="3" flavor2="0">
+      <item path="funciones.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -62,7 +62,7 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="datos.txt" ex="false" tool="3" flavor2="0">
+      <item path="funciones.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
