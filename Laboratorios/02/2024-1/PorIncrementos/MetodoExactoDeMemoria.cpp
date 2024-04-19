@@ -123,7 +123,8 @@ void atencionDePedidos (const char *filename, char ***libros, int **&stock,
     pedidosClientes = nullptr;
     pedidosLibros = nullptr;
     pedidosAtendidos = nullptr;
-    int nDatos = 0, capacidad = 0, dni, codigo;
+    int nDatos = 0, capacidad = 0, dni, codigo, nClientes = 0, capacidadClientes = 0, 
+            posicion;
     char c;
     while(true){
         file >> codigo;
@@ -131,9 +132,13 @@ void atencionDePedidos (const char *filename, char ***libros, int **&stock,
         file >> c >> dni;
         if(nDatos == capacidad)
             incrementarEspacio(pedidosLibros, pedidosAtendidos, nDatos, capacidad);
+        if(nClientes == capacidadClientes)
+            incrementarEspacio(pedidosClientes, nClientes, capacidadClientes);
+        //posicion = buscarCliente(pedidosClientes, nClientes, dni);
         cargarPedidos(file, pedidosLibros[nDatos-1], pedidosAtendidos[nDatos-1], 
                 libros, stock);
         nDatos++;
+        nClientes++;
     }
     file.close();
 }
@@ -162,6 +167,15 @@ void incrementarEspacio(char ***&pedidosLibros, bool **&pedidosAtendidos,
     }
 }
 
+int buscarCliente(int **pedidosClientes, int nClientes, int dni){
+    int *aux;
+    for(int i = 0; i < nClientes; i++){
+        aux = pedidosClientes[i];
+        if(aux[0] == dni)
+            return i;
+    }
+    return -1;
+}
 void cargarPedidos(ifstream &file, char **&pedidosLibros, bool *&pedidosAtendidos, 
         char ***libros, int **&stock){
     int nDatos = 0, capacidad = 0;
@@ -231,4 +245,21 @@ int buscarLibro(char ***libros, char *codigo){
         }
     }
     return -1;
+}
+
+void incrementarEspacio(int **&pedidosClientes, int &nClientes, int &capacidadClientes){
+    int **aux;
+    capacidadClientes += INCREMENTO;
+    if(pedidosClientes == nullptr){
+        pedidosClientes == new int*[capacidadClientes]{};
+        nClientes = 1;
+    }
+    else{
+        aux = new int*[capacidadClientes]{};
+        for(int i = 0; pedidosClientes[i]; i++){
+            aux[i] = pedidosClientes[i];
+        }
+        delete[] pedidosClientes;
+        pedidosClientes = aux;
+    }
 }

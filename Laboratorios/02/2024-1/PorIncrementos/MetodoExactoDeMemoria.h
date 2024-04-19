@@ -27,10 +27,12 @@ void imprimirLinea(ofstream &, char , int );
 void atencionDePedidos (const char *, char ***, int **&, int **&, char ***&, 
         bool **&);
 void incrementarEspacio(char ***&, bool **&, int &, int &);
+int buscarCliente(int **, int , int );
 void cargarPedidos(ifstream &, char **&, bool *&, char ***, int **&);
 void incrementarEspacio(char **&, bool *&, int &, int &);
 void cargarCodigo(char *, char *&, bool &, char ***, int **&);
 int buscarLibro(char ***, char *);
+void incrementarEspacio(int **&, int &, int &);
 
 #endif /* METODOEXACTODEMEMORIA_H */
 
