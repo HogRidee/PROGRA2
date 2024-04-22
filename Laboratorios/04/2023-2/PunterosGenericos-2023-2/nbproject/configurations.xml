@@ -29,6 +29,7 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>Productos2.csv</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -43,6 +44,8 @@
       <item path="MuestraPunteros.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="MuestraPunteros.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Productos2.csv" ex="false" tool="3" flavor2="0">
       </item>
       <item path="PunterosGenericos.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -74,6 +77,8 @@
       <item path="MuestraPunteros.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="MuestraPunteros.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Productos2.csv" ex="false" tool="3" flavor2="0">
       </item>
       <item path="PunterosGenericos.cpp" ex="false" tool="1" flavor2="0">
       </item>
