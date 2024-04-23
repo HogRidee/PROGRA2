@@ -14,7 +14,6 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>MuestraPunteros.cpp</itemPath>
       <itemPath>PunterosGenericos.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -29,6 +28,8 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>Clientes2.csv</itemPath>
+    <itemPath>Pedidos2.csv</itemPath>
     <itemPath>Productos2.csv</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
@@ -40,10 +41,20 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>.</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>muestravoid</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
       </compileType>
-      <item path="MuestraPunteros.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Clientes2.csv" ex="false" tool="3" flavor2="0">
       </item>
       <item path="MuestraPunteros.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pedidos2.csv" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Productos2.csv" ex="false" tool="3" flavor2="0">
       </item>
@@ -74,9 +85,11 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="MuestraPunteros.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Clientes2.csv" ex="false" tool="3" flavor2="0">
       </item>
       <item path="MuestraPunteros.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pedidos2.csv" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Productos2.csv" ex="false" tool="3" flavor2="0">
       </item>

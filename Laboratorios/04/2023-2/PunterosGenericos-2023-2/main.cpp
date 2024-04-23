@@ -16,7 +16,11 @@ int main(int argc, char** argv) {
     cargaproductos(productos);
     cargaclientes(clientes);
     
-//    cargapedidos(productos,clientes);
+    imprimeproductos(productos);
+    imprimeclientes(clientes);
+    
+    cargapedidos(productos,clientes);
+    imprimerepfinal(clientes);
 //    imprimereporte(clientes);
     
     return 0;

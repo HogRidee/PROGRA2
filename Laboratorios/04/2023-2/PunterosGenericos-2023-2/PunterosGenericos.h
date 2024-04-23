@@ -15,8 +15,13 @@
 
 using namespace std;
 
-void cargaproductos(void *&productos);
-void cargaclientes(void *&clientes);
+void cargaproductos(void *&);
+void *leerProducto(ifstream &);
+char *leerCadenaExacta(ifstream &, int, char);
+void cargaclientes(void *&);
+void *leerCliente(ifstream &);
+void cargapedidos(void *&, void *&);
+bool verificarSiConsumeCredito(char *, void *&);
 
 #endif /* PUNTEROSGENERICOS_H */
 
