@@ -21,7 +21,13 @@ char *leerCadenaExacta(ifstream &, int, char);
 void cargaclientes(void *&);
 void *leerCliente(ifstream &);
 void cargapedidos(void *&, void *&);
-bool verificarSiConsumeCredito(char *, void *&);
+int buscarCliente(int , void *);
+void cargarPedido(void *&, int , char* , void *, int );
+bool verificarSiConsumeCredito(char *, void *);
+double calcularTotal(char *, void *, int );
+bool verificarLineaCredito(void *, int , double );
+void actualizarLineaCredito(void *&, int , double );
+void cargarProducto(void *&, int , char* , void *, int );
 
 #endif /* PUNTEROSGENERICOS_H */
 

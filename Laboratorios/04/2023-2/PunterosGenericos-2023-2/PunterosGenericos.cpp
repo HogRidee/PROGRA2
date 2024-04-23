@@ -74,16 +74,17 @@ void cargaclientes(void *&clientes){
 
 void *leerCliente(ifstream &file){
     void **cliente;
-    int cod, *codigo, telefono, linea, *lineaCredito;
+    int cod, *codigo;
+    double linea, *lineaCredito;
     char *nombre, c, *descartado;
     file >> cod;
     if(file.eof()) return nullptr;
     file.get();
     nombre = leerCadenaExacta(file, 100, ',');
-    descartado = leerCadenaExacta(file, 100, ',');
+    descartado = leerCadenaExacta(file, 200, ',');
     file >> linea;
     codigo = new int;
-    lineaCredito = new int;
+    lineaCredito = new double;
     *codigo = cod;
     *lineaCredito = linea;
     cliente = new void*[4]{};
@@ -100,23 +101,46 @@ void cargapedidos(void *&productos, void *&clientes){
         cout << "ERROR: NO SE PUDO ABRIR EL ARCHIVO pedidos2.csv" << endl;
         exit(1);
     }
-    int dni, cantidad;
-    bool consumeCredito = false;
+    int dni, cantidad, pos;
     char *codigo, c;
     while(true){
         codigo = leerCadenaExacta(file, 10, ',');
         if(file.eof()) break;
         file >> dni >> c >> cantidad;
-        consumeCredito = verificarSiConsumeCredito(codigo, productos);
-        if(consumeCredito){
-            
-        }
+        pos = buscarCliente(dni, clientes);
+        if(pos != -1) cargarPedido(clientes, pos, codigo, productos, cantidad);
         file.ignore();
     }
     file.close();
 }
 
-bool verificarSiConsumeCredito(char *codigo, void *&productos){
+int buscarCliente(int dni, void *clientes){
+    void **cliente = (void**)clientes;
+    void **aux;
+    int *dniCliente;
+    for(int i = 0; cliente[i]; i++){
+        aux = (void**)cliente[i];
+        dniCliente = (int*)(aux[0]);
+        if(*dniCliente == dni) return i;
+    }
+    return -1;
+}
+
+void cargarPedido(void *&clientes, int pos, char* codigo, void *productos, 
+        int cantidad){
+    bool consumeCredito, hayLineaCredito;
+    double total;
+    consumeCredito = verificarSiConsumeCredito(codigo, productos);
+    total = calcularTotal(codigo, productos, cantidad);
+    if(consumeCredito){
+        hayLineaCredito = verificarLineaCredito(clientes, pos, total);
+        if(not hayLineaCredito) return;
+        actualizarLineaCredito(clientes, pos, total);
+    }
+    cargarProducto(clientes, pos, codigo, productos, cantidad);
+}
+
+bool verificarSiConsumeCredito(char *codigo, void *productos){
     void **producto = (void**)productos;
     void **aux;
     char *cod, *tipo;
@@ -133,3 +157,42 @@ bool verificarSiConsumeCredito(char *codigo, void *&productos){
     }
     return false;
 }
+
+double calcularTotal(char *codigo, void *productos, int cantidad){
+    double *prec, total;
+    char *cod;
+    void **producto = (void**)productos;
+    void **aux;
+    for(int i = 0; producto[i]; i++){
+        aux = (void **)producto[i];
+        cod = (char*)(aux[0]);
+        if(strcmp(cod, codigo) == 0){
+            prec = (double*)(aux[2]);
+            total = *prec*cantidad;
+            return total;
+        }
+    }
+    return 0;
+}
+
+bool verificarLineaCredito(void *clientes, int pos, double total){
+    double *linea;
+    void **cliente = (void**)clientes;
+    void **aux;
+    aux = (void**)cliente[pos];
+    linea = (double*)(aux[3]);
+    if(*linea > total) return true;
+    else return false;
+}
+
+void actualizarLineaCredito(void *&clientes, int pos, double total){
+    double *linea;
+    void **cliente = (void**)clientes;
+    void **aux;
+    aux = (void**)(cliente[pos]);
+    linea = (double*)(aux[3]);
+    *linea -= total;
+}
+
+void cargarProducto(void *&clientes, int pos, char* codigo, void *productos, 
+        int cantidad);
