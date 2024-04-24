@@ -21,7 +21,6 @@ int main(int argc, char** argv) {
     
     cargapedidos(productos,clientes);
     imprimerepfinal(clientes);
-//    imprimereporte(clientes);
     
     return 0;
 }
