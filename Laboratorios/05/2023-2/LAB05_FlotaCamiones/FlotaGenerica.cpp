@@ -29,14 +29,10 @@ void push(void *dato, void *&flota, int (*calculanumero)(void*), double pesomaxi
     }
     else{
         void **nodoActual = (void**)flota;
-        cout << "El peso actual del camión es: " << *(int*)nodoActual[0] << " ";
-        cout << "El peso que quiero agregar es: " << *(int*)dato << endl;
         if(*(int*)nodoActual[0] + *(int*)dato <= (int)pesomaximo){
             *(int*)nodoActual[0] = *(int*)nodoActual[0] + *(int*)dato;
-            cout << "Es posible agregar" << endl;
         }
         else{
-            cout << "No es posible agregar" << endl;
             void **nodo = new void*[2];
             nodo[0] = dato;
             nodo[1] = flota;

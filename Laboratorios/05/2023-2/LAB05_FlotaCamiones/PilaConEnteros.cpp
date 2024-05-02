@@ -25,8 +25,8 @@ int cmpnumero(const void* a,const void*b){
     void **camionA = (void**)*ai;
     void **camionB = (void**)*bi;
     
-    int *pesoA = (int*)camionA[1];
-    int *pesoB = (int*)camionB[1];
+    int *pesoA = (int*)camionA[0];
+    int *pesoB = (int*)camionB[0];
        
-    return *pesoB - *pesoA;
+    return *pesoA - *pesoB;
 }
