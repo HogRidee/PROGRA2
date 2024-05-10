@@ -10,15 +10,19 @@
 
 #include <iostream>
 #include <fstream>
-
-#define INCREMENTO 5
+#include <iomanip>
+#include <cstring>
+#include <cstdlib>
 
 using namespace std;
 
 void cargarProductos(void *&, const char*);
-void *leerProducto(ifstream &);
-char *leerCadena(ifstream &, int , int );
+void *leerProducto(ifstream &, char *);
+char *leerCadena(ifstream &, int , char );
+int comparaCodigo(const void *, const void *);
 void pruebaDeCargaDeProductos(void *);
+void imprimirCabecera(ofstream &file);
+void imprimirLinea(ofstream &, int , char );
 
 #endif /* PREGUNTA02EXAMEN01PUNTEROSGENERICOS_H */
 
