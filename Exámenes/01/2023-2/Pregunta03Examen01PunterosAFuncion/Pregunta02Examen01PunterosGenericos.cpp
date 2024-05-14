@@ -1,3 +1,4 @@
+#include "Pregunta01Examen01PunterosMultiples.h"
 #include "Pregunta02Examen01PunterosGenericos.h"
 
 void cargarProductos(void *&productos, const char*filename){
@@ -45,14 +46,14 @@ void *leerProducto(ifstream &file, char *codigo){
     return producto;
 }
 
-char *leerCadena(ifstream &file, int n, char c){
-    char buffer[n], *cadena;
-    file.getline(buffer, n, c);
-    if(file.eof()) return nullptr;
-    cadena = new char[strlen(buffer)+1];
-    strcpy(cadena, buffer);
-    return cadena;
-}
+//char *leerCadena(ifstream &file, int n, char c){
+//    char buffer[n], *cadena;
+//    file.getline(buffer, n, c);
+//    if(file.eof()) return nullptr;
+//    cadena = new char[strlen(buffer)+1];
+//    strcpy(cadena, buffer);
+//    return cadena;
+//}
 
 //int comparaCodigo(const void *a, const void *b){
 //    void **regA = (void**)a;
@@ -65,15 +66,19 @@ int comparaCodigo(const void *a, const void *b){
     // Convertir a void***
     void*** ptrA = (void***)a;
     void*** ptrB = (void***)b;
+
     // Desreferenciar para obtener void**
     void** duplaA = *ptrA;
     void** duplaB = *ptrB;
+
     // Acceder al primer elemento de la dupla para obtener void*
     void* codigoVoidA = duplaA[0];
     void* codigoVoidB = duplaB[0];
+
     // Convertir a char*
     char* codA = *(char**)codigoVoidA;
     char* codB = *(char**)codigoVoidB;
+
     // Comparar los códigos
     return strcmp(codA, codB);
 }
@@ -105,8 +110,8 @@ void imprimirCabecera(ofstream &file){
     imprimirLinea(file, 100, '=');
 }
 
-void imprimirLinea(ofstream &file, int n, char c){
-    for(int i = 0; i < n; i++)
-        file.put(c);
-    file.put('\n');
-}
+//void imprimirLinea(ofstream &file, int n, char c){
+//    for(int i = 0; i < n; i++)
+//        file.put(c);
+//    file.put('\n');
+//}
