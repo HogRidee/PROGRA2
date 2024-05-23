@@ -21,6 +21,18 @@ private:
 public:
     Cliente();
     ~Cliente();
+    void SetMontoTotal(double );
+    double GetMontoTotal() const;
+    void SetCantidadProductosEntregados(int );
+    int GetCantidadProductosEntregados() const;
+    void SetProductosEntregados(ProductoEntregado);
+    //ProductoEntregado* GetProductosEntregados() const;
+    void SetTelefono(int );
+    int GetTelefono() const;
+    void SetNombre(char* );
+    char* GetNombre() const;
+    void SetDni(int );
+    int GetDni() const;
 };
 
 #endif /* CLIENTE_H */
