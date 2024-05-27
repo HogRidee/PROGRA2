@@ -37,12 +37,15 @@ int Alumno::GetEscala() const {
     return escala;
 }
 
-void Alumno::SetNombre(char* nombre) {
-    this->nombre = nombre;
+void Alumno::SetNombre(const char* cad) {
+    if(nombre!=nullptr) delete[] nombre;
+    nombre = new char[strlen(cad)+1];
+    strcpy(nombre, cad);
 }
 
-char* Alumno::GetNombre() const {
-    return nombre;
+void Alumno::GetNombre(char *cad) const {
+    if(nombre == nullptr) cad[0] = 0;
+    else strcpy(cad, nombre);
 }
 
 void Alumno::SetCodigo(int codigo) {

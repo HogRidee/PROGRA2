@@ -36,6 +36,12 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Alumno.o \
+	${OBJECTDIR}/Escala.o \
+	${OBJECTDIR}/FuncionesExtras.o \
+	${OBJECTDIR}/Presencial.o \
+	${OBJECTDIR}/Semipresencial.o \
+	${OBJECTDIR}/Tesoreria.o \
+	${OBJECTDIR}/Virtual.o \
 	${OBJECTDIR}/main.o
 
 
@@ -67,6 +73,36 @@ ${OBJECTDIR}/Alumno.o: Alumno.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Alumno.o Alumno.cpp
+
+${OBJECTDIR}/Escala.o: Escala.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Escala.o Escala.cpp
+
+${OBJECTDIR}/FuncionesExtras.o: FuncionesExtras.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/FuncionesExtras.o FuncionesExtras.cpp
+
+${OBJECTDIR}/Presencial.o: Presencial.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Presencial.o Presencial.cpp
+
+${OBJECTDIR}/Semipresencial.o: Semipresencial.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Semipresencial.o Semipresencial.cpp
+
+${OBJECTDIR}/Tesoreria.o: Tesoreria.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Tesoreria.o Tesoreria.cpp
+
+${OBJECTDIR}/Virtual.o: Virtual.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Virtual.o Virtual.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
