@@ -26,11 +26,14 @@ double Virtual::GetTotal() const {
     return total;
 }
 
-void Virtual::SetLicencia(char* licencia) {
-    this->licencia = licencia;
+void Virtual::SetLicencia(char* cad) {
+    if(licencia) delete[] licencia;
+    licencia = new char[strlen(cad)+1];
+    strcpy(licencia, cad);
 }
 
-char* Virtual::GetLicencia() const {
-    return licencia;
+void Virtual::GetLicencia(char *cad) const {
+    if(licencia == nullptr) cad[0] = 0;
+    else strcpy(cad, licencia);
 }
 

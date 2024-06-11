@@ -5,9 +5,11 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>Alumno.h</itemPath>
+      <itemPath>Boleta.h</itemPath>
       <itemPath>Escala.h</itemPath>
       <itemPath>Presencial.h</itemPath>
       <itemPath>Semipresencial.h</itemPath>
+      <itemPath>Tesoreria.h</itemPath>
       <itemPath>Virtual.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -18,9 +20,11 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>Alumno.cpp</itemPath>
+      <itemPath>Boleta.cpp</itemPath>
       <itemPath>Escala.cpp</itemPath>
       <itemPath>Presencial.cpp</itemPath>
       <itemPath>Semipresencial.cpp</itemPath>
+      <itemPath>Tesoreria.cpp</itemPath>
       <itemPath>Virtual.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -35,6 +39,8 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
+    <itemPath>Alumnos.csv</itemPath>
+    <itemPath>escalas.csv</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -50,6 +56,12 @@
       </item>
       <item path="Alumno.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Alumnos.csv" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Boleta.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Boleta.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Escala.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Escala.h" ex="false" tool="3" flavor2="0">
@@ -62,9 +74,15 @@
       </item>
       <item path="Semipresencial.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Tesoreria.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Tesoreria.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Virtual.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Virtual.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="escalas.csv" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -93,6 +111,12 @@
       </item>
       <item path="Alumno.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Alumnos.csv" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Boleta.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Boleta.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Escala.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Escala.h" ex="false" tool="3" flavor2="0">
@@ -105,9 +129,15 @@
       </item>
       <item path="Semipresencial.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Tesoreria.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Tesoreria.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Virtual.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Virtual.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="escalas.csv" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>

@@ -20,8 +20,8 @@ public:
     virtual ~Virtual();
     void SetTotal(double total);
     double GetTotal() const;
-    void SetLicencia(char* licencia);
-    char* GetLicencia() const;
+    void SetLicencia(char* cad);
+    void GetLicencia(char *cad) const;
 };
 
 #endif /* VIRTUAL_H */
