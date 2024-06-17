@@ -2,16 +2,16 @@
  * File:   Alumno.cpp
  * Author: Ivan
  * 
- * Created on 3 de junio de 2024, 13:20
+ * Created on 17 de junio de 2024, 12:52
  */
 
 #include "Alumno.h"
 
 Alumno::Alumno() {
     codigo = 0;
-    nombre = nullptr;
-    escala = 0;
     creditos = 0.0;
+    escala = 0;
+    nombre = nullptr;
     total = 0.0;
 }
 
@@ -43,7 +43,7 @@ int Alumno::GetEscala() const {
     return escala;
 }
 
-void Alumno::SetNombre(const char* cad) {
+void Alumno::SetNombre(char* cad) {
     if(nombre) delete[] nombre;
     nombre = new char[strlen(cad)+1];
     strcpy(nombre, cad);
@@ -63,10 +63,24 @@ int Alumno::GetCodigo() const {
 }
 
 void Alumno::lee(ifstream &file){
-    char buffer[60], c;
-    file >> codigo >> c;
-    file.getline(buffer, 60, ',');
-    SetNombre(buffer);
-    file >> escala >> c >> creditos >> c;
+    char nomb[60], c;
+    file >> codigo;
+    file.get();
+    file.getline(nomb, 60, ',');
+    SetNombre(nomb);
+    file >> escala >> c >> creditos;
+    file.get();
 }
+
+void Alumno::imprime(ofstream &file){
+    file.precision(2);
+    file << fixed;
+    file<<left<<setw(10)<<codigo<<setw(40)<<nombre<<right<<setw(3)<<escala 
+            <<setw(12)<<creditos;
+}
+
+void Alumno::actualizaTotal(double pago){
+    total = pago;
+}
+
 
