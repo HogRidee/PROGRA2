@@ -84,12 +84,19 @@ class Medico{
 		return cantidadDeConsultas;
 	}
 	
-	public void leerMedico(Scanner arch){
-		
+	public boolean leerMedico(Scanner arch){
+		int cod;
+		cod = arch.nextInt();
+		if(cod == 0) return true;
+		codigo = cod;
+		nombre = arch.next();
+		especialidad = arch.next();
+		tarifa = arch.nextDouble();
+		return false;
 	}
 	
 	public void imprimirMedico(){
-		System.out.prinf("%6d %-20s %-20s %6.2f %6.2f %10.2f %5d\n", codigo, 
+		System.out.printf("%6d %-40s %-20s %6.2f %10.2f %13.2f %15d\n", codigo, 
 			nombre, especialidad, tarifa, tiempoTotal, ingresosTotales, 
 			cantidadDeConsultas);
 	}

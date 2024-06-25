@@ -73,12 +73,18 @@ class Paciente{
 		return cantidadDeConsultas;
 	}
 	
-	public void leerPaciente(Scanner arch){
-		
+	public boolean leerPaciente(Scanner arch){
+		int d;
+		d = arch.nextInt();
+		if(d == 0) return true;
+		dni = d;
+		nombre = arch.next();
+		distrito = arch.next();
+		return false;
 	}
 	
 	public void imprimirPaciente(){
-		System.out.prinf("%6d %-20s %-20s %6.2f %6.2f %5d\n", dni, 
+		System.out.printf("%6d %-40s %-25s %6.2f %10.2f %15d\n", dni, 
 			nombre, distrito, tiempoTotal, gastosTotales, 
 			cantidadDeConsultas);
 	}
