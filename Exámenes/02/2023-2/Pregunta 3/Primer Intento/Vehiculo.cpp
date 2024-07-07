@@ -2,20 +2,14 @@
  * File:   Vehiculo.cpp
  * Author: Ivan
  * 
- * Created on 6 de julio de 2024, 13:41
+ * Created on 7 de julio de 2024, 9:42
  */
 
 #include "Vehiculo.h"
-#include "Pedido.h"
 
 Vehiculo::Vehiculo() {
-    carga_actual = 0.0;
-    carga_maxima = 0.0;
-    dni = 0;
 }
 
-Vehiculo::Vehiculo(const Vehiculo& orig) {
-}
 
 Vehiculo::~Vehiculo() {
 }
@@ -57,10 +51,10 @@ void Vehiculo::leer(ifstream& arch){
     arch.get();
     getline(arch, placa, ',');
     arch >> carga_maxima;
-    arch.get(); 
+    arch.get();
 }
 
-void Vehiculo::mostrar(ofstream& arch){
+ void Vehiculo::mostrar(ofstream& arch){
     arch << left << setw(20) << "Codigo de Cliente: " << dni << endl;
     arch << left << setw(20) << "Placa: " << placa << endl;
     arch << left << setw(20) << "Carga Maxima: " << carga_maxima << endl;
@@ -68,7 +62,6 @@ void Vehiculo::mostrar(ofstream& arch){
 }
 
 bool Vehiculo::insertar(class Pedido pedido){
-    if(carga_actual + pedido.GetPeso() > carga_maxima) return false;
-    return true;
+    if(pedido.GetPeso() + carga_actual > carga_maxima) return false;
     return true;
 }

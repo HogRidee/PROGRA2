@@ -6,7 +6,7 @@ Carga Maxima:       1000
 Carga Actual:       612.1
 #Llantas:           6
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 ISU.815   2.5     5    
 OWN.701   3       2    
 GBD.525   275     5    
@@ -17,9 +17,9 @@ Codigo de Cliente:  48467976
 Placa:              A6D-661
 Carga Maxima:       300
 Carga Actual:       200
-#Puertas:           1
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            1
+Filas:              1
+Lista de Pedidos: 
 JDQ.505   200     5    
 ----------------------------------------------------------------------------------------------------
 Codigo de Cliente:  45877001
@@ -28,7 +28,7 @@ Carga Maxima:       1000
 Carga Actual:       55.2
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 VVS.017   3.2     4    
 PJG.338   10      2    
 GBJ.693   5       5    
@@ -39,9 +39,9 @@ Codigo de Cliente:  95751208
 Placa:              A8J-929
 Carga Maxima:       300
 Carga Actual:       147
-#Puertas:           2
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            2
+Filas:              1
+Lista de Pedidos: 
 UOD.420   12      4    
 BWD.036   135     3    
 ----------------------------------------------------------------------------------------------------
@@ -51,7 +51,7 @@ Carga Maxima:       1000
 Carga Actual:       343.1
 #Llantas:           8
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 TMN.884   1       1    
 YUQ.590   110     2    
 HFM.021   30      6    
@@ -64,7 +64,7 @@ Carga Maxima:       1000
 Carga Actual:       8.6
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 ZWF.661   5       1    
 UWA.476   2.8     4    
 UTN.601   0.8     1    
@@ -75,7 +75,7 @@ Carga Maxima:       1000
 Carga Actual:       113
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 VJI.529   10      2    
 III.576   50      5    
 VVS.017   4       5    
@@ -88,7 +88,7 @@ Carga Maxima:       1000
 Carga Actual:       405
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 VTV.269   80      4    
 AFL.718   50      5    
 JXD.139   40      2    
@@ -101,7 +101,7 @@ Carga Maxima:       1200
 Carga Actual:       720
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 QJO.060   30      6    
 XSD.310   220     4    
 AVM.258   100     2    
@@ -112,9 +112,9 @@ Codigo de Cliente:  38913831
 Placa:              C0S-417
 Carga Maxima:       300
 Carga Actual:       216
-#Puertas:           3
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            3
+Filas:              1
+Lista de Pedidos: 
 YZD.580   3       1    
 FLW.631   3       3    
 JFC.432   60      3    
@@ -126,7 +126,7 @@ Carga Maxima:       1000
 Carga Actual:       200
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 FEG.454   200     4    
 ----------------------------------------------------------------------------------------------------
 Codigo de Cliente:  91897732
@@ -135,7 +135,7 @@ Carga Maxima:       1000
 Carga Actual:       367
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 TMN.884   2       2    
 XZR.640   200     5    
 WLL.607   45      1    
@@ -148,7 +148,7 @@ Carga Maxima:       1000
 Carga Actual:       308
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 TYF.885   8       4    
 DIQ.718   20      4    
 GXF.122   50      5    
@@ -161,7 +161,7 @@ Carga Maxima:       1000
 Carga Actual:       11.1
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 OWN.701   7.5     5    
 HLR.109   3.6     2    
 ----------------------------------------------------------------------------------------------------
@@ -171,7 +171,7 @@ Carga Maxima:       1200
 Carga Actual:       805
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 JXD.139   120     6    
 CRU.009   200     5    
 KQA.580   225     5    
@@ -184,7 +184,7 @@ Carga Maxima:       1000
 Carga Actual:       148.1
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 OBI.353   120     6    
 ZEX.027   3       2    
 AHB.459   5.1     3    
@@ -197,7 +197,7 @@ Carga Maxima:       1000
 Carga Actual:       420
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 NMV.644   200     5    
 TXM.139   25      5    
 CIM.038   90      2    
@@ -210,7 +210,7 @@ Carga Maxima:       1000
 Carga Actual:       575
 #Llantas:           8
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 IDO.503   15      6    
 UXG.019   80      4    
 FVQ.662   250     5    
@@ -223,7 +223,7 @@ Carga Maxima:       1000
 Carga Actual:       705
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 CIM.038   180     4    
 JJN.837   40      1    
 XLF.273   240     4    
@@ -234,9 +234,9 @@ Codigo de Cliente:  59407188
 Placa:              D9A-711
 Carga Maxima:       300
 Carga Actual:       101.5
-#Puertas:           3
-#Filas:             2
-Lista de Pedidos:   
+Puertas:            3
+Filas:              2
+Lista de Pedidos: 
 OWN.701   1.5     1    
 LYZ.614   15      3    
 RDT.761   25      5    
@@ -246,9 +246,9 @@ Codigo de Cliente:  93160528
 Placa:              E0I-722
 Carga Maxima:       300
 Carga Actual:       281.6
-#Puertas:           3
-#Filas:             2
-Lista de Pedidos:   
+Puertas:            3
+Filas:              2
+Lista de Pedidos: 
 YYU.726   1.6     1    
 DUG.251   100     2    
 QTK.083   180     3    
@@ -259,7 +259,7 @@ Carga Maxima:       1000
 Carga Actual:       70
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 TXM.139   15      3    
 RDT.761   15      3    
 UXG.019   40      2    
@@ -270,7 +270,7 @@ Carga Maxima:       1500
 Carga Actual:       428
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 MLE.193   200     4    
 XSD.310   165     3    
 LDR.510   18      6    
@@ -282,7 +282,7 @@ Carga Maxima:       1000
 Carga Actual:       100
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 MYC.756   100     2    
 ----------------------------------------------------------------------------------------------------
 Codigo de Cliente:  89298238
@@ -291,7 +291,7 @@ Carga Maxima:       1500
 Carga Actual:       509
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 PFD.286   110     2    
 QTK.083   180     3    
 QFP.254   3       2    
@@ -304,16 +304,16 @@ Carga Maxima:       1200
 Carga Actual:       4
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 CSZ.863   4       2    
 ----------------------------------------------------------------------------------------------------
 Codigo de Cliente:  17913944
 Placa:              F1H-328
 Carga Maxima:       300
 Carga Actual:       257.4
-#Puertas:           1
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            1
+Filas:              1
+Lista de Pedidos: 
 DEN.125   1       1    
 IHG.413   6.4     4    
 YJD.279   250     5    
@@ -324,7 +324,7 @@ Carga Maxima:       1000
 Carga Actual:       280
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 OBI.353   20      1    
 BRD.969   180     3    
 OBI.353   80      4    
@@ -335,7 +335,7 @@ Carga Maxima:       1000
 Carga Actual:       236.5
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 AQS.362   0.5     1    
 UXG.019   120     6    
 SJD.818   55      1    
@@ -348,7 +348,7 @@ Carga Maxima:       1000
 Carga Actual:       537.5
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 AFL.718   50      5    
 JDC.028   1.5     6    
 LWG.915   150     3    
@@ -361,7 +361,7 @@ Carga Maxima:       1000
 Carga Actual:       241
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 SJD.818   220     4    
 AQS.362   1       2    
 QVJ.982   20      4    
@@ -372,7 +372,7 @@ Carga Maxima:       1000
 Carga Actual:       166.8
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 BCK.361   1.8     3    
 RDT.761   25      5    
 PPX.620   5       1    
@@ -384,7 +384,7 @@ Carga Maxima:       1000
 Carga Actual:       1
 #Llantas:           8
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 VRR.793   1       1    
 ----------------------------------------------------------------------------------------------------
 Codigo de Cliente:  33397650
@@ -393,7 +393,7 @@ Carga Maxima:       1000
 Carga Actual:       34.8
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 IHG.413   4.8     3    
 VJI.529   30      6    
 ----------------------------------------------------------------------------------------------------
@@ -403,7 +403,7 @@ Carga Maxima:       1000
 Carga Actual:       360
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 OQI.373   135     3    
 OQI.373   135     3    
 RBE.789   60      6    
@@ -415,16 +415,16 @@ Carga Maxima:       1500
 Carga Actual:       0.6
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 BCK.361   0.6     1    
 ----------------------------------------------------------------------------------------------------
 Codigo de Cliente:  45783712
 Placa:              H8M-598
 Carga Maxima:       300
 Carga Actual:       260
-#Puertas:           2
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            2
+Filas:              1
+Lista de Pedidos: 
 YUQ.590   110     2    
 QFR.958   150     3    
 ----------------------------------------------------------------------------------------------------
@@ -432,9 +432,9 @@ Codigo de Cliente:  23928045
 Placa:              H8S-849
 Carga Maxima:       300
 Carga Actual:       267
-#Puertas:           3
-#Filas:             2
-Lista de Pedidos:   
+Puertas:            3
+Filas:              2
+Lista de Pedidos: 
 TMN.884   2       2    
 OXP.732   15      3    
 TKM.141   250     5    
@@ -443,9 +443,9 @@ Codigo de Cliente:  32821689
 Placa:              I0E-459
 Carga Maxima:       300
 Carga Actual:       30
-#Puertas:           2
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            2
+Filas:              1
+Lista de Pedidos: 
 ISU.815   0.5     1    
 ONB.903   4.5     3    
 MTF.868   25      5    
@@ -456,7 +456,7 @@ Carga Maxima:       1000
 Carga Actual:       425
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 SSD.176   220     4    
 AVM.258   200     4    
 KCO.488   5       1    
@@ -467,7 +467,7 @@ Carga Maxima:       1000
 Carga Actual:       187
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 KQQ.136   30      6    
 BCK.361   3       5    
 YJD.279   150     3    
@@ -479,7 +479,7 @@ Carga Maxima:       1000
 Carga Actual:       134
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 QVJ.982   25      5    
 ZWF.661   20      4    
 KWP.672   20      2    
@@ -492,7 +492,7 @@ Carga Maxima:       1200
 Carga Actual:       252.6
 #Llantas:           6
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 VDD.853   4       2    
 BCK.361   1.8     3    
 SJQ.827   1.8     1    
@@ -503,9 +503,9 @@ Codigo de Cliente:  28390487
 Placa:              I3A-223
 Carga Maxima:       300
 Carga Actual:       4
-#Puertas:           2
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            2
+Filas:              1
+Lista de Pedidos: 
 GLC.370   4       2    
 ----------------------------------------------------------------------------------------------------
 Codigo de Cliente:  15210391
@@ -514,7 +514,7 @@ Carga Maxima:       1000
 Carga Actual:       131
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 RSE.049   5       5    
 TZY.323   60      3    
 OTW.288   60      3    
@@ -527,7 +527,7 @@ Carga Maxima:       1000
 Carga Actual:       250
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 DFJ.952   50      1    
 RDT.761   30      6    
 HFM.021   30      6    
@@ -540,7 +540,7 @@ Carga Maxima:       1000
 Carga Actual:       955
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 SJQ.827   9       5    
 EBI.299   250     5    
 RSE.049   6       6    
@@ -551,9 +551,9 @@ Codigo de Cliente:  57263719
 Placa:              J2K-636
 Carga Maxima:       300
 Carga Actual:       300
-#Puertas:           1
-#Filas:             2
-Lista de Pedidos:   
+Puertas:            1
+Filas:              2
+Lista de Pedidos: 
 YOT.530   20      5    
 ZWF.661   25      5    
 TZY.323   120     6    
@@ -565,7 +565,7 @@ Carga Maxima:       1000
 Carga Actual:       400
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 BWD.036   90      2    
 III.576   60      6    
 KDA.627   250     5    
@@ -574,9 +574,9 @@ Codigo de Cliente:  71984468
 Placa:              J7Y-327
 Carga Maxima:       300
 Carga Actual:       222
-#Puertas:           3
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            3
+Filas:              1
+Lista de Pedidos: 
 PQH.935   2       2    
 TZY.323   20      1    
 JJN.837   200     5    
@@ -587,7 +587,7 @@ Carga Maxima:       1000
 Carga Actual:       353.6
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 BIT.434   40      4    
 FVQ.662   100     2    
 ARS.231   3.6     6    
@@ -598,9 +598,9 @@ Codigo de Cliente:  79464412
 Placa:              K0D-676
 Carga Maxima:       300
 Carga Actual:       225
-#Puertas:           3
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            3
+Filas:              1
+Lista de Pedidos: 
 CJE.310   15      5    
 MTF.868   30      6    
 JXD.139   80      4    
@@ -612,7 +612,7 @@ Carga Maxima:       1000
 Carga Actual:       362
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 PJG.338   10      2    
 III.576   50      5    
 AWB.345   12      4    
@@ -625,7 +625,7 @@ Carga Maxima:       1000
 Carga Actual:       630
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 SNY.500   200     4    
 TYF.885   10      5    
 SSD.176   220     4    
@@ -637,7 +637,7 @@ Carga Maxima:       1200
 Carga Actual:       528.5
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 DEV.433   6       3    
 ZVA.180   220     4    
 FVB.607   250     5    
@@ -650,7 +650,7 @@ Carga Maxima:       1000
 Carga Actual:       305
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 SSE.115   275     5    
 GXF.122   30      3    
 ----------------------------------------------------------------------------------------------------
@@ -658,9 +658,9 @@ Codigo de Cliente:  43053402
 Placa:              L3N-150
 Carga Maxima:       400
 Carga Actual:       370
-#Puertas:           3
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            3
+Filas:              1
+Lista de Pedidos: 
 VRR.793   2       2    
 YOT.530   8       2    
 MMA.577   360     6    
@@ -671,7 +671,7 @@ Carga Maxima:       1000
 Carga Actual:       245
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 CIM.038   90      2    
 HFC.845   15      3    
 UXG.019   40      2    
@@ -681,9 +681,9 @@ Codigo de Cliente:  33713901
 Placa:              L4B-291
 Carga Maxima:       400
 Carga Actual:       332.2
-#Puertas:           2
-#Filas:             2
-Lista de Pedidos:   
+Puertas:            2
+Filas:              2
+Lista de Pedidos: 
 VVS.017   0.8     1    
 UWA.476   1.4     2    
 ZVA.180   330     6    
@@ -694,7 +694,7 @@ Carga Maxima:       1000
 Carga Actual:       457.5
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 OTH.462   120     3    
 QHC.492   60      3    
 QUU.384   120     3    
@@ -707,7 +707,7 @@ Carga Maxima:       1000
 Carga Actual:       444.5
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 PFD.286   220     4    
 QFP.254   4.5     3    
 PVZ.181   25      5    
@@ -718,9 +718,9 @@ Codigo de Cliente:  16151792
 Placa:              L6Z-161
 Carga Maxima:       300
 Carga Actual:       286
-#Puertas:           2
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            2
+Filas:              1
+Lista de Pedidos: 
 AQS.362   0.5     1    
 AQS.362   0.5     1    
 CNQ.172   60      1    
@@ -733,7 +733,7 @@ Carga Maxima:       1000
 Carga Actual:       360
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 CIM.038   180     4    
 QRC.609   5       5    
 DFJ.952   100     2    
@@ -746,7 +746,7 @@ Carga Maxima:       1000
 Carga Actual:       453
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 ICX.503   50      1    
 LWG.915   200     4    
 QFR.958   150     3    
@@ -757,9 +757,9 @@ Codigo de Cliente:  29337157
 Placa:              M1E-751
 Carga Maxima:       300
 Carga Actual:       144.5
-#Puertas:           1
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            1
+Filas:              1
+Lista de Pedidos: 
 ZEX.027   4.5     3    
 HFM.021   20      4    
 QHC.492   120     6    
@@ -770,7 +770,7 @@ Carga Maxima:       1000
 Carga Actual:       157
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 KWP.672   60      6    
 KBY.991   12      6    
 OPJ.039   45      1    
@@ -783,7 +783,7 @@ Carga Maxima:       1000
 Carga Actual:       234
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 VCL.867   150     3    
 OPT.996   18      6    
 AWB.345   18      6    
@@ -794,9 +794,9 @@ Codigo de Cliente:  22777006
 Placa:              M8Q-758
 Carga Maxima:       300
 Carga Actual:       290
-#Puertas:           2
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            2
+Filas:              1
+Lista de Pedidos: 
 FCN.617   5       1    
 XLF.273   120     2    
 YYK.309   165     3    
@@ -807,7 +807,7 @@ Carga Maxima:       1000
 Carga Actual:       522
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 WZD.331   165     3    
 SNY.500   200     4    
 FLJ.040   2       2    
@@ -820,7 +820,7 @@ Carga Maxima:       1000
 Carga Actual:       570.7
 #Llantas:           8
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 UWA.476   0.7     1    
 BTO.226   80      4    
 AFL.718   10      1    
@@ -831,9 +831,9 @@ Codigo de Cliente:  71463316
 Placa:              N1O-921
 Carga Maxima:       300
 Carga Actual:       240.1
-#Puertas:           2
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            2
+Filas:              1
+Lista de Pedidos: 
 UWA.476   2.1     3    
 AWT.354   4       4    
 QFP.254   9       6    
@@ -846,7 +846,7 @@ Carga Maxima:       1000
 Carga Actual:       453
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 JFC.432   80      4    
 TMJ.043   240     6    
 YUQ.590   110     2    
@@ -859,7 +859,7 @@ Carga Maxima:       1000
 Carga Actual:       562
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 KWP.672   20      2    
 VRR.793   2       2    
 WZD.331   110     2    
@@ -870,9 +870,9 @@ Codigo de Cliente:  69975105
 Placa:              N5J-515
 Carga Maxima:       300
 Carga Actual:       275
-#Puertas:           3
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            3
+Filas:              1
+Lista de Pedidos: 
 FQG.293   5       5    
 HFM.021   30      6    
 TMJ.043   240     6    
@@ -883,7 +883,7 @@ Carga Maxima:       1000
 Carga Actual:       485.5
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 AQS.362   0.5     1    
 TMN.884   5       5    
 OQI.373   90      2    
@@ -894,9 +894,9 @@ Codigo de Cliente:  99842319
 Placa:              N6D-256
 Carga Maxima:       300
 Carga Actual:       101
-#Puertas:           2
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            2
+Filas:              1
+Lista de Pedidos: 
 ZAF.449   1       1    
 DUG.251   100     2    
 ----------------------------------------------------------------------------------------------------
@@ -904,9 +904,9 @@ Codigo de Cliente:  15561764
 Placa:              N9Q-814
 Carga Maxima:       300
 Carga Actual:       236
-#Puertas:           2
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            2
+Filas:              1
+Lista de Pedidos: 
 GBJ.693   2       2    
 FYF.898   4       2    
 JYQ.045   30      6    
@@ -916,9 +916,9 @@ Codigo de Cliente:  83236386
 Placa:              O3T-110
 Carga Maxima:       300
 Carga Actual:       267.7
-#Puertas:           1
-#Filas:             2
-Lista de Pedidos:   
+Puertas:            1
+Filas:              2
+Lista de Pedidos: 
 OFS.384   1.7     1    
 OPT.996   6       2    
 MTF.868   10      2    
@@ -927,10 +927,10 @@ UJV.290   250     5
 Codigo de Cliente:  73786035
 Placa:              O4X-500
 Carga Maxima:       300
-Carga Actual:       4.5
-#Puertas:           3
-#Filas:             2
-Lista de Pedidos:   
+Carga Actual:       -1.40587e+115
+Puertas:            3
+Filas:              2
+Lista de Pedidos: 
 AQS.362   0.5     1    
 DEN.125   4       4    
 ----------------------------------------------------------------------------------------------------
@@ -940,7 +940,7 @@ Carga Maxima:       1000
 Carga Actual:       12.5
 #Llantas:           6
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 KBY.991   12      6    
 VXS.438   0.5     2    
 ----------------------------------------------------------------------------------------------------
@@ -950,7 +950,7 @@ Carga Maxima:       1000
 Carga Actual:       716
 #Llantas:           6
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 BXY.119   180     4    
 JFC.432   20      1    
 JDQ.505   240     6    
@@ -963,7 +963,7 @@ Carga Maxima:       1000
 Carga Actual:       391
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 CSZ.863   10      5    
 CIM.038   135     3    
 XLF.273   240     4    
@@ -975,7 +975,7 @@ Carga Maxima:       1000
 Carga Actual:       0
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 No hay pedidos para el cliente
 ----------------------------------------------------------------------------------------------------
 Codigo de Cliente:  79372768
@@ -984,7 +984,7 @@ Carga Maxima:       1000
 Carga Actual:       113
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 GLC.370   8       4    
 QVJ.982   30      6    
 SAM.013   50      1    
@@ -996,7 +996,7 @@ Carga Maxima:       1000
 Carga Actual:       594
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 LDR.510   3       1    
 YJD.279   250     5    
 FQG.293   1       1    
@@ -1009,7 +1009,7 @@ Carga Maxima:       1200
 Carga Actual:       610
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 TKM.141   250     5    
 AFL.718   50      5    
 EJW.346   60      6    
@@ -1022,7 +1022,7 @@ Carga Maxima:       1000
 Carga Actual:       41
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 TYF.885   10      5    
 EJW.346   30      3    
 MQR.442   1       1    
@@ -1033,7 +1033,7 @@ Carga Maxima:       1000
 Carga Actual:       445
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 XZR.640   200     5    
 DFF.034   1       2    
 FQG.293   4       4    
@@ -1046,7 +1046,7 @@ Carga Maxima:       1000
 Carga Actual:       39.5
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 QHC.492   20      1    
 ONB.903   4.5     3    
 TXM.139   15      3    
@@ -1055,9 +1055,9 @@ Codigo de Cliente:  69639726
 Placa:              Q5S-871
 Carga Maxima:       300
 Carga Actual:       10
-#Puertas:           3
-#Filas:             2
-Lista de Pedidos:   
+Puertas:            3
+Filas:              2
+Lista de Pedidos: 
 DON.719   1       1    
 OPT.996   9       3    
 ----------------------------------------------------------------------------------------------------
@@ -1067,7 +1067,7 @@ Carga Maxima:       1000
 Carga Actual:       251.4
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 SSD.176   55      1    
 QUU.384   160     4    
 YZD.580   15      5    
@@ -1080,7 +1080,7 @@ Carga Maxima:       1000
 Carga Actual:       734.5
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 NSM.283   250     5    
 OQI.373   225     5    
 XLF.273   240     4    
@@ -1091,9 +1091,9 @@ Codigo de Cliente:  44679500
 Placa:              R7U-941
 Carga Maxima:       300
 Carga Actual:       3
-#Puertas:           2
-#Filas:             2
-Lista de Pedidos:   
+Puertas:            2
+Filas:              2
+Lista de Pedidos: 
 AWB.345   3       1    
 ----------------------------------------------------------------------------------------------------
 Codigo de Cliente:  89148118
@@ -1102,7 +1102,7 @@ Carga Maxima:       1000
 Carga Actual:       710
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 TKM.141   300     6    
 XLF.273   300     5    
 AFL.718   10      1    
@@ -1114,7 +1114,7 @@ Carga Maxima:       1000
 Carga Actual:       353
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 KCO.488   20      4    
 KWP.672   30      3    
 LWG.915   300     6    
@@ -1124,9 +1124,9 @@ Codigo de Cliente:  31611146
 Placa:              S1D-093
 Carga Maxima:       300
 Carga Actual:       271
-#Puertas:           1
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            1
+Filas:              1
+Lista de Pedidos: 
 YOT.530   16      4    
 XSD.310   55      1    
 FVQ.662   200     4    
@@ -1137,7 +1137,7 @@ Carga Maxima:       1000
 Carga Actual:       358
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 CIM.038   225     5    
 AWB.345   15      5    
 QIL.029   18      6    
@@ -1149,7 +1149,7 @@ Carga Maxima:       1000
 Carga Actual:       495.25
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 VXS.438   0.25    1    
 QUU.384   40      1    
 UXG.019   20      1    
@@ -1159,19 +1159,19 @@ BXY.119   135     3
 Codigo de Cliente:  16552775
 Placa:              S7E-946
 Carga Maxima:       300
-Carga Actual:       18
-#Puertas:           3
-#Filas:             2
-Lista de Pedidos:   
-AWB.345   18      6    
+Carga Actual:       3.4413e+175
+Puertas:            3
+Filas:              2
+Lista de Pedidos: 
+No hay pedidos para el cliente
 ----------------------------------------------------------------------------------------------------
 Codigo de Cliente:  69324480
 Placa:              S9I-160
 Carga Maxima:       300
 Carga Actual:       300
-#Puertas:           3
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            3
+Filas:              1
+Lista de Pedidos: 
 JCW.489   300     5    
 ----------------------------------------------------------------------------------------------------
 Codigo de Cliente:  78757121
@@ -1180,7 +1180,7 @@ Carga Maxima:       1000
 Carga Actual:       347.4
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 OQI.373   135     3    
 ZXK.295   180     4    
 GXF.122   10      1    
@@ -1193,7 +1193,7 @@ Carga Maxima:       1000
 Carga Actual:       488
 #Llantas:           6
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 ADX.669   200     4    
 KQA.580   270     6    
 GBJ.693   3       3    
@@ -1205,7 +1205,7 @@ Carga Maxima:       1200
 Carga Actual:       225.25
 #Llantas:           6
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 JDC.028   0.25    1    
 BXY.119   225     5    
 ----------------------------------------------------------------------------------------------------
@@ -1215,7 +1215,7 @@ Carga Maxima:       1000
 Carga Actual:       690
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 XLF.273   300     5    
 DIQ.718   30      6    
 QTK.083   360     6    
@@ -1224,9 +1224,9 @@ Codigo de Cliente:  32904023
 Placa:              T6W-978
 Carga Maxima:       400
 Carga Actual:       286
-#Puertas:           2
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            2
+Filas:              1
+Lista de Pedidos: 
 KQQ.136   5       1    
 QFP.254   6       4    
 KJX.387   15      3    
@@ -1239,7 +1239,7 @@ Carga Maxima:       1000
 Carga Actual:       132.5
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 OTS.581   2.5     5    
 III.576   60      6    
 KCO.488   10      2    
@@ -1249,9 +1249,9 @@ Codigo de Cliente:  40112594
 Placa:              T8Y-354
 Carga Maxima:       300
 Carga Actual:       271.2
-#Puertas:           3
-#Filas:             2
-Lista de Pedidos:   
+Puertas:            3
+Filas:              2
+Lista de Pedidos: 
 BCK.361   1.2     2    
 KSO.608   270     6    
 ----------------------------------------------------------------------------------------------------
@@ -1261,7 +1261,7 @@ Carga Maxima:       1000
 Carga Actual:       30
 #Llantas:           6
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 HFC.845   30      6    
 ----------------------------------------------------------------------------------------------------
 Codigo de Cliente:  79140840
@@ -1270,7 +1270,7 @@ Carga Maxima:       1000
 Carga Actual:       52.3
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 DFF.034   1.5     3    
 TYF.885   4       2    
 HLR.109   1.8     1    
@@ -1283,7 +1283,7 @@ Carga Maxima:       1500
 Carga Actual:       546.5
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 AHB.459   5.1     3    
 YYU.726   6.4     4    
 XSD.310   330     6    
@@ -1296,7 +1296,7 @@ Carga Maxima:       1000
 Carga Actual:       0
 #Llantas:           8
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 No hay pedidos para el cliente
 ----------------------------------------------------------------------------------------------------
 Codigo de Cliente:  22280452
@@ -1305,7 +1305,7 @@ Carga Maxima:       1200
 Carga Actual:       116.5
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 XSD.310   110     2    
 VRR.793   5       5    
 UCX.285   1.5     3    
@@ -1314,9 +1314,9 @@ Codigo de Cliente:  64394265
 Placa:              U5N-536
 Carga Maxima:       300
 Carga Actual:       163.5
-#Puertas:           1
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            1
+Filas:              1
+Lista de Pedidos: 
 OFS.384   8.5     5    
 YUQ.590   55      1    
 OTW.288   100     5    
@@ -1325,9 +1325,9 @@ Codigo de Cliente:  13245501
 Placa:              U6A-456
 Carga Maxima:       300
 Carga Actual:       294.75
-#Puertas:           2
-#Filas:             2
-Lista de Pedidos:   
+Puertas:            2
+Filas:              2
+Lista de Pedidos: 
 VXS.438   0.75    3    
 AWB.345   3       1    
 ZWF.661   5       1    
@@ -1342,7 +1342,7 @@ Carga Maxima:       1200
 Carga Actual:       239
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 JXD.139   80      4    
 SNY.500   150     3    
 HLR.109   9       5    
@@ -1353,7 +1353,7 @@ Carga Maxima:       1000
 Carga Actual:       299
 #Llantas:           6
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 ZEX.027   1.5     1    
 QFP.254   7.5     5    
 SSD.176   275     5    
@@ -1363,9 +1363,9 @@ Codigo de Cliente:  88995291
 Placa:              V7P-711
 Carga Maxima:       400
 Carga Actual:       18.6
-#Puertas:           2
-#Filas:             2
-Lista de Pedidos:   
+Puertas:            2
+Filas:              2
+Lista de Pedidos: 
 HLR.109   3.6     2    
 MTF.868   15      3    
 ----------------------------------------------------------------------------------------------------
@@ -1375,7 +1375,7 @@ Carga Maxima:       1000
 Carga Actual:       302
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 SPR.580   3       3    
 UDR.957   50      1    
 ZEX.027   9       6    
@@ -1385,9 +1385,9 @@ Codigo de Cliente:  26290971
 Placa:              V9J-051
 Carga Maxima:       300
 Carga Actual:       136
-#Puertas:           2
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            2
+Filas:              1
+Lista de Pedidos: 
 TYF.885   6       3    
 PVZ.181   15      3    
 GKG.558   15      3    
@@ -1397,9 +1397,9 @@ Codigo de Cliente:  86828079
 Placa:              W1C-444
 Carga Maxima:       300
 Carga Actual:       23
-#Puertas:           1
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            1
+Filas:              1
+Lista de Pedidos: 
 MQR.442   3       3    
 YGV.332   5       1    
 QIL.029   15      5    
@@ -1410,7 +1410,7 @@ Carga Maxima:       1000
 Carga Actual:       217.7
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 ZAF.449   2       2    
 UWA.476   0.7     1    
 KSO.608   135     3    
@@ -1422,7 +1422,7 @@ Carga Maxima:       1000
 Carga Actual:       95
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 KQA.580   90      2    
 TXM.139   5       1    
 ----------------------------------------------------------------------------------------------------
@@ -1430,9 +1430,9 @@ Codigo de Cliente:  73535476
 Placa:              W3T-571
 Carga Maxima:       300
 Carga Actual:       168.5
-#Puertas:           3
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            3
+Filas:              1
+Lista de Pedidos: 
 UWA.476   3.5     5    
 FLJ.040   4       4    
 LDR.510   6       2    
@@ -1443,9 +1443,9 @@ Codigo de Cliente:  79475585
 Placa:              W6Z-142
 Carga Maxima:       300
 Carga Actual:       255
-#Puertas:           1
-#Filas:             2
-Lista de Pedidos:   
+Puertas:            1
+Filas:              2
+Lista de Pedidos: 
 KQQ.136   30      6    
 BWD.036   225     5    
 ----------------------------------------------------------------------------------------------------
@@ -1455,7 +1455,7 @@ Carga Maxima:       1000
 Carga Actual:       231.6
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 VRR.793   4       4    
 BCN.855   200     4    
 RBE.789   20      2    
@@ -1468,7 +1468,7 @@ Carga Maxima:       1000
 Carga Actual:       453.2
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 QUU.384   200     5    
 DFJ.952   250     5    
 YYU.726   3.2     2    
@@ -1479,7 +1479,7 @@ Carga Maxima:       1000
 Carga Actual:       399.6
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 QUU.384   40      1    
 EVN.510   250     5    
 FEG.454   100     2    
@@ -1491,7 +1491,7 @@ Carga Maxima:       1000
 Carga Actual:       7.7
 #Llantas:           6
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 FLJ.040   6       6    
 OFS.384   1.7     1    
 ----------------------------------------------------------------------------------------------------
@@ -1501,7 +1501,7 @@ Carga Maxima:       1000
 Carga Actual:       218
 #Llantas:           6
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 KCO.488   20      4    
 YMU.875   150     3    
 DON.719   3       3    
@@ -1511,9 +1511,9 @@ Codigo de Cliente:  66409237
 Placa:              Y4Y-028
 Carga Maxima:       300
 Carga Actual:       268
-#Puertas:           2
-#Filas:             2
-Lista de Pedidos:   
+Puertas:            2
+Filas:              2
+Lista de Pedidos: 
 DFF.034   2       4    
 AWT.354   6       6    
 UXG.019   80      4    
@@ -1525,7 +1525,7 @@ Carga Maxima:       1200
 Carga Actual:       370
 #Llantas:           8
 #Ejes:              3
-Lista de Pedidos:   
+Lista de Pedidos:
 CRU.009   80      2    
 QHC.492   40      2    
 EBI.299   250     5    
@@ -1536,7 +1536,7 @@ Carga Maxima:       1000
 Carga Actual:       513
 #Llantas:           6
 #Ejes:              2
-Lista de Pedidos:   
+Lista de Pedidos:
 SSE.115   220     4    
 FVB.607   50      1    
 OTH.462   240     6    
@@ -1546,9 +1546,9 @@ Codigo de Cliente:  98140264
 Placa:              Z4L-514
 Carga Maxima:       400
 Carga Actual:       150
-#Puertas:           2
-#Filas:             1
-Lista de Pedidos:   
+Puertas:            2
+Filas:              1
+Lista de Pedidos: 
 DFF.034   1       2    
 CJE.310   9       3    
 BRD.969   60      1    

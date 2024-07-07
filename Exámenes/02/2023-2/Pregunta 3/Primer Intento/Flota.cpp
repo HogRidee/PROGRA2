@@ -2,15 +2,12 @@
  * File:   Flota.cpp
  * Author: Ivan
  * 
- * Created on 6 de julio de 2024, 13:46
+ * Created on 7 de julio de 2024, 9:46
  */
 
 #include "Flota.h"
 
 Flota::Flota() {
-}
-
-Flota::Flota(const Flota& orig) {
 }
 
 Flota::~Flota() {
@@ -22,8 +19,8 @@ void Flota::cargar_vehiculos(){
         cout << "ERROR: No se pudo abrir el archivo Vehiculos.csv" << endl;
         exit(1);
     }
-    char tipo;
     class Vehiculo *vehiculo = nullptr;
+    char tipo;
     while(true){
         arch >> tipo;
         if(arch.eof()) break;
@@ -44,7 +41,7 @@ void Flota::cargar_pedidos(){
     string placa;
     class Pedido pedido;
     while(true){
-        getline(arch, placa, ',');  
+        getline(arch, placa, ',');
         if(arch.eof()) break;
         pedido.leerPedido(arch);
         auto pos = vehiculos.find(placa);
@@ -68,4 +65,8 @@ void Flota::mostrar_vehiculos(){
         veh->mostrar(arch);
         imprimirLinea(arch, 100, '-');
     }
+}
+
+const map<string, class Vehiculo*>& Flota::obtenerVehiculos() const {
+    return vehiculos;
 }

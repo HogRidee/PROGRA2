@@ -1,0 +1,11 @@
+Codigo de Cliente:  98140264
+Placa:              Z4L-514
+Carga Maxima:       400
+Carga Actual:       150
+Puertas:            2
+Filas:              1
+Lista de Pedidos: 
+DFF.034   1       2    
+CJE.310   9       3    
+BRD.969   60      1    
+QHC.492   80      4    

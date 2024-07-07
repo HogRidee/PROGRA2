@@ -2,7 +2,7 @@
  * File:   Pedido.cpp
  * Author: Ivan
  * 
- * Created on 6 de julio de 2024, 13:39
+ * Created on 7 de julio de 2024, 9:41
  */
 
 #include "Pedido.h"
@@ -39,16 +39,16 @@ string Pedido::GetCodigo() const {
     return codigo;
 }
 
+void Pedido::mostrarPedido(ofstream& arch){
+    arch << left << setw(10) << codigo;
+    arch << left << setw(8) << peso;
+    arch << left << setw(5) << cantidad << endl;
+}
+
 void Pedido::leerPedido(ifstream& arch){
     getline(arch, codigo, ',');
     arch >> cantidad;
     arch.get();
     arch >> peso;
     arch.get();
-}
-
-void Pedido::mostrarPedido(ofstream& arch){
-    arch << left << setw(10) << codigo;
-    arch << left << setw(8) << peso;
-    arch << left << setw(5) << cantidad << endl;
 }

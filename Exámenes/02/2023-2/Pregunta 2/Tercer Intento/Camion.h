@@ -2,28 +2,26 @@
  * File:   Camion.h
  * Author: Ivan
  *
- * Created on 6 de julio de 2024, 13:43
+ * Created on 7 de julio de 2024, 9:43
  */
 
 #ifndef CAMION_H
 #define CAMION_H
 
 #include <vector>
-#include <iostream>
 
-#include "Vehiculo.h"
 #include "Pedido.h"
+#include "Vehiculo.h"
 
 using namespace std;
 
-class Camion : public Vehiculo{
+class Camion: public Vehiculo{
 private:
     int ejes;
     int llantas;
     vector<class Pedido>depositos;
 public:
     Camion();
-    Camion(const Camion& orig);
     virtual ~Camion();
     void SetLlantas(int llantas);
     int GetLlantas() const;

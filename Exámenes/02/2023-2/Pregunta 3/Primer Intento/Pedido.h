@@ -2,7 +2,7 @@
  * File:   Pedido.h
  * Author: Ivan
  *
- * Created on 6 de julio de 2024, 13:39
+ * Created on 7 de julio de 2024, 9:41
  */
 
 #ifndef PEDIDO_H
@@ -11,7 +11,6 @@
 #include <string>
 #include <fstream>
 #include <iomanip>
-#include <iostream>
 
 using namespace std;
 
@@ -30,8 +29,8 @@ public:
     void SetCodigo(string codigo);
     string GetCodigo() const;
     
-    void leerPedido(ifstream &arch);
     void mostrarPedido(ofstream &arch);
+    void leerPedido(ifstream &arch);
 };
 
 #endif /* PEDIDO_H */

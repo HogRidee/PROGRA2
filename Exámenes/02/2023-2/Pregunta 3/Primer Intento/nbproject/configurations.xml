@@ -4,10 +4,13 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Arbol.h</itemPath>
       <itemPath>Camion.h</itemPath>
       <itemPath>Flota.h</itemPath>
       <itemPath>Furgon.h</itemPath>
+      <itemPath>Nodo.h</itemPath>
       <itemPath>Pedido.h</itemPath>
+      <itemPath>Programacion.h</itemPath>
       <itemPath>Util.h</itemPath>
       <itemPath>Vehiculo.h</itemPath>
     </logicalFolder>
@@ -18,10 +21,13 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Arbol.cpp</itemPath>
       <itemPath>Camion.cpp</itemPath>
       <itemPath>Flota.cpp</itemPath>
       <itemPath>Furgon.cpp</itemPath>
+      <itemPath>Nodo.cpp</itemPath>
       <itemPath>Pedido.cpp</itemPath>
+      <itemPath>Programacion.cpp</itemPath>
       <itemPath>Util.cpp</itemPath>
       <itemPath>Vehiculo.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
@@ -50,6 +56,10 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="Arbol.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Arbol.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Camion.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Camion.h" ex="false" tool="3" flavor2="0">
@@ -62,11 +72,19 @@
       </item>
       <item path="Furgon.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Nodo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Nodo.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Pedido.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Pedido.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Pedidos4.csv" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Programacion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Programacion.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Util.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -101,6 +119,10 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Arbol.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Arbol.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Camion.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Camion.h" ex="false" tool="3" flavor2="0">
@@ -113,11 +135,19 @@
       </item>
       <item path="Furgon.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Nodo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Nodo.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Pedido.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Pedido.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Pedidos4.csv" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Programacion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Programacion.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Util.cpp" ex="false" tool="1" flavor2="0">
       </item>
