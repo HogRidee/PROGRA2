@@ -2,7 +2,7 @@
  * File:   Flota.h
  * Author: Ivan
  *
- * Created on 4 de julio de 2024, 11:01
+ * Created on 6 de julio de 2024, 13:46
  */
 
 #ifndef FLOTA_H
@@ -15,17 +15,18 @@
 #include <iomanip>
 
 #include "Vehiculo.h"
-#include "Furgon.h"
 #include "Camion.h"
-
-using namespace std;
+#include "Furgon.h"
+#include "Util.h"
 
 class Flota {
 private:
     map<string, class Vehiculo*>vehiculos;
 public:
     Flota();
+    Flota(const Flota& orig);
     virtual ~Flota();
+    
     void cargar_vehiculos();
     void cargar_pedidos();
     void mostrar_vehiculos();

@@ -2,20 +2,16 @@
  * File:   Furgon.h
  * Author: Ivan
  *
- * Created on 4 de julio de 2024, 10:55
+ * Created on 6 de julio de 2024, 13:45
  */
 
 #ifndef FURGON_H
 #define FURGON_H
 
 #include <list>
-#include <fstream>
-#include <algorithm>
 
-#include "Vehiculo.h"
 #include "Pedido.h"
-
-using namespace std;
+#include "Vehiculo.h"
 
 class Furgon : public Vehiculo{
 private:
@@ -24,6 +20,7 @@ private:
     list<class Pedido>depositos;
 public:
     Furgon();
+    Furgon(const Furgon& orig);
     virtual ~Furgon();
     void SetPuertas(int puertas);
     int GetPuertas() const;
@@ -31,7 +28,6 @@ public:
     int GetFilas() const;
     
     void leer(ifstream &arch);
-    Vehiculo* clonar();
     void mostrar(ofstream &arch);
     bool insertar(class Pedido pedido);
 };

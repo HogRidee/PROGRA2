@@ -2,7 +2,7 @@
  * File:   Camion.cpp
  * Author: Ivan
  * 
- * Created on 4 de julio de 2024, 10:42
+ * Created on 6 de julio de 2024, 13:43
  */
 
 #include "Camion.h"
@@ -10,6 +10,9 @@
 Camion::Camion() {
     ejes = 0;
     llantas = 0;
+}
+
+Camion::Camion(const Camion& orig) {
 }
 
 Camion::~Camion() {
@@ -31,7 +34,7 @@ int Camion::GetEjes() const {
     return ejes;
 }
 
-void Camion::leer(ifstream &arch){
+void Camion::leer(ifstream& arch){
     Vehiculo::leer(arch);
     arch >> ejes;
     arch.get();
@@ -39,11 +42,7 @@ void Camion::leer(ifstream &arch){
     arch.get();
 }
 
-Vehiculo* Camion::clonar(){
-    return new Camion(*this);
-}
-
-void Camion::mostrar(ofstream &arch){
+void Camion::mostrar(ofstream& arch){
     Vehiculo::mostrar(arch);
     arch << left << setw(20) << "#Llantas: " << llantas << endl;
     arch << left << setw(20) << "#Ejes: " << ejes << endl;
@@ -60,10 +59,9 @@ bool Camion::insertar(class Pedido pedido){
     if(not Vehiculo::insertar(pedido)) return false;
     if(depositos.size() < 5){
         depositos.push_back(pedido);
-        double peso = pedido.GetPeso();
         double cargaActual = GetCarga_actual();
-        cargaActual += peso;
-        SetCarga_actual(cargaActual);
+        double peso = pedido.GetPeso();
+        cout << peso << endl;
     }
     return true;
 }

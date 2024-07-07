@@ -2,16 +2,19 @@
  * File:   Vehiculo.cpp
  * Author: Ivan
  * 
- * Created on 4 de julio de 2024, 10:40
+ * Created on 6 de julio de 2024, 13:41
  */
 
 #include "Vehiculo.h"
 #include "Pedido.h"
 
 Vehiculo::Vehiculo() {
-    dni = 0;
     carga_actual = 0.0;
     carga_maxima = 0.0;
+    dni = 0;
+}
+
+Vehiculo::Vehiculo(const Vehiculo& orig) {
 }
 
 Vehiculo::~Vehiculo() {
@@ -49,29 +52,22 @@ int Vehiculo::GetDni() const {
     return dni;
 }
 
-void Vehiculo::leer(ifstream &arch){
+void Vehiculo::leer(ifstream& arch){
     arch >> dni;
     arch.get();
     getline(arch, placa, ',');
     arch >> carga_maxima;
-    arch.get();
-}
-
-Vehiculo * Vehiculo::clonar(){
-    
+    arch.get(); 
 }
 
 void Vehiculo::mostrar(ofstream& arch){
-    arch << left << setw(20) << "Codigo de cliente: " << GetDni() << endl;
-    arch << left << setw(20) << "Placa: " << GetPlaca() << endl;
-    arch << left << setw(20) << "Carga Maxima: " << GetCarga_maxima() << endl;
-    arch << left << setw(20) << "Carga Actual: " << GetCarga_actual() << endl;
+    arch << left << setw(20) << "Codigo de Cliente: " << dni << endl;
+    arch << left << setw(20) << "Placa: " << placa << endl;
+    arch << left << setw(20) << "Carga Maxima: " << carga_maxima << endl;
+    arch << left << setw(20) << "Carga Actual: " << carga_actual << endl;
 }
 
 bool Vehiculo::insertar(class Pedido pedido){
-    double peso = pedido.GetPeso();
-    double cargaActual = GetCarga_actual();
-    cargaActual += peso;
-    if(cargaActual > GetCarga_maxima()) return false;
+    if(carga_actual + pedido.GetPeso() > carga_maxima) return false;
     return true;
 }

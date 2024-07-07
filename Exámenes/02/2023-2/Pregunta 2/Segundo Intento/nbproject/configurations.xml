@@ -8,7 +8,7 @@
       <itemPath>Flota.h</itemPath>
       <itemPath>Furgon.h</itemPath>
       <itemPath>Pedido.h</itemPath>
-      <itemPath>Utils.h</itemPath>
+      <itemPath>Util.h</itemPath>
       <itemPath>Vehiculo.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -22,7 +22,7 @@
       <itemPath>Flota.cpp</itemPath>
       <itemPath>Furgon.cpp</itemPath>
       <itemPath>Pedido.cpp</itemPath>
-      <itemPath>Utils.cpp</itemPath>
+      <itemPath>Util.cpp</itemPath>
       <itemPath>Vehiculo.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -37,8 +37,8 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
-    <itemPath>Pedidos4.csv</itemPath>
-    <itemPath>Vehiculos.csv</itemPath>
+    <itemPath>../Primer Intento/Pedidos4.csv</itemPath>
+    <itemPath>../Primer Intento/Vehiculos.csv</itemPath>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -50,6 +50,10 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="../Primer Intento/Pedidos4.csv" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Primer Intento/Vehiculos.csv" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Camion.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Camion.h" ex="false" tool="3" flavor2="0">
@@ -66,17 +70,13 @@
       </item>
       <item path="Pedido.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Pedidos4.csv" ex="false" tool="3" flavor2="0">
+      <item path="Util.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Utils.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="Utils.h" ex="false" tool="3" flavor2="0">
+      <item path="Util.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Vehiculo.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Vehiculo.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Vehiculos.csv" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -101,6 +101,10 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="../Primer Intento/Pedidos4.csv" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Primer Intento/Vehiculos.csv" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Camion.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Camion.h" ex="false" tool="3" flavor2="0">
@@ -117,17 +121,13 @@
       </item>
       <item path="Pedido.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="Pedidos4.csv" ex="false" tool="3" flavor2="0">
+      <item path="Util.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="Utils.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="Utils.h" ex="false" tool="3" flavor2="0">
+      <item path="Util.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Vehiculo.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Vehiculo.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="Vehiculos.csv" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>

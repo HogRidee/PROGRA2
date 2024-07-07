@@ -1,18 +1,18 @@
 /* 
- * File:   Utils.h
+ * File:   Util.h
  * Author: Ivan
  *
- * Created on 4 de julio de 2024, 11:09
+ * Created on 6 de julio de 2024, 14:21
  */
+
+#ifndef UTIL_H
+#define UTIL_H
 
 #include <fstream>
 
 using namespace std;
 
-#ifndef UTILS_H
-#define UTILS_H
-
 void imprimirLinea(ofstream &arch, int n, char c);
 
-#endif /* UTILS_H */
+#endif /* UTIL_H */
 

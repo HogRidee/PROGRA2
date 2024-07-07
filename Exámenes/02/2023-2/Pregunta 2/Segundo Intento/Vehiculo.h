@@ -2,7 +2,7 @@
  * File:   Vehiculo.h
  * Author: Ivan
  *
- * Created on 4 de julio de 2024, 10:40
+ * Created on 6 de julio de 2024, 13:41
  */
 
 #ifndef VEHICULO_H
@@ -22,6 +22,7 @@ private:
     double carga_actual;
 public:
     Vehiculo();
+    Vehiculo(const Vehiculo& orig);
     virtual ~Vehiculo();
     void SetCarga_actual(double carga_actual);
     double GetCarga_actual() const;
@@ -33,7 +34,6 @@ public:
     int GetDni() const;
     
     virtual void leer(ifstream &arch);
-    virtual Vehiculo* clonar();
     virtual void mostrar(ofstream &arch);
     virtual bool insertar(class Pedido pedido);
 };

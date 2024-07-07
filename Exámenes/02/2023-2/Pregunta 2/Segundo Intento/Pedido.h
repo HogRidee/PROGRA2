@@ -2,7 +2,7 @@
  * File:   Pedido.h
  * Author: Ivan
  *
- * Created on 4 de julio de 2024, 10:30
+ * Created on 6 de julio de 2024, 13:39
  */
 
 #ifndef PEDIDO_H
@@ -11,6 +11,7 @@
 #include <string>
 #include <fstream>
 #include <iomanip>
+#include <iostream>
 
 using namespace std;
 
@@ -21,6 +22,7 @@ private:
     double peso;
 public:
     Pedido();
+    Pedido(const Pedido& orig);
     virtual ~Pedido();
     void SetPeso(double peso);
     double GetPeso() const;
