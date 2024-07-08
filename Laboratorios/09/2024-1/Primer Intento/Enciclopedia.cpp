@@ -31,3 +31,15 @@ int Enciclopedia::GetSku() const {
     return sku;
 }
 
+void Enciclopedia::leer(ifstream& arch){
+    Libro::leer(arch);
+    arch >> sku;
+    arch.get();
+    arch >> anho;
+    arch.get();
+}
+
+void Enciclopedia::imprimir(ofstream& arch) {
+    Libro::imprimir(arch);
+    arch << "SKU: " << sku << setw(5) << " " << "Año: " << anho << endl;
+}

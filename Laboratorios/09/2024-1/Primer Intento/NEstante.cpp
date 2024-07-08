@@ -52,5 +52,21 @@ void NEstante::cargarLibros(ifstream &arch){
         arch >> tipo;
         if(arch.eof()) break;
         arch.get();
+        libro.asignarMemoria(tipo);
+        disponible -= libro.leerLibro(arch);
+        vlibros.push_back(libro);
+    }
+}
+
+void NEstante::imprimirEstante(ofstream& arch) {
+    arch << "Estante: " << id << endl;
+    arch << "Capacidad: " << capacidad << setw(5) << " " << "Disponible: " << 
+            disponible << endl;
+    for(int i = 0; i < 100; i++)
+        arch.put('=');
+    arch << endl;
+    for(int i = 0; i < vlibros.size(); i++){
+        vlibros[i].imprimirLibro(arch);
+        arch << endl;
     }
 }

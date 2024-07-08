@@ -26,3 +26,17 @@ void Novela::GetAutor(char *cad) const {
     else strcpy(cad, autor);
 }
 
+void Novela::leer(ifstream& arch){
+    Libro::leer(arch);
+    char buffer[100];
+    arch.getline(buffer, 100, '\n');
+    SetAutor(buffer);
+}
+
+void Novela::imprimir(ofstream& arch) {
+    Libro::imprimir(arch);
+    char cad[100];
+    GetAutor(cad);
+    arch << "AUTOR: " << cad << endl; 
+}
+

@@ -18,6 +18,9 @@ public:
     virtual ~Novela();
     void SetAutor(char* cad);
     void GetAutor(char *cad) const;
+    
+    void leer(ifstream &arch);
+    void imprimir(ofstream &arch);
 };
 
 #endif /* NOVELA_H */

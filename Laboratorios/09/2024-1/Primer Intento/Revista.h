@@ -24,6 +24,9 @@ public:
     int GetAnho() const;
     void SetISSN(int ISSN);
     int GetISSN() const;
+    
+    void leer(ifstream &arch);
+    void imprimir(ofstream &arch);
 };
 
 #endif /* REVISTA_H */

@@ -12,6 +12,23 @@ NLibro::NLibro() {
 }
 
 NLibro::~NLibro() {
-    delete plibro;
+    //delete plibro;
 }
+
+void NLibro::asignarMemoria(char tipo){
+    delete plibro;
+    if(tipo == 'N') plibro = new class Novela;
+    if(tipo == 'E') plibro = new class Enciclopedia;
+    if(tipo == 'R') plibro = new class Revista;
+}
+
+double NLibro::leerLibro(ifstream& arch){
+    plibro->leer(arch);
+    return plibro->GetPeso();
+}
+
+void NLibro::imprimirLibro(ofstream& arch) {
+    plibro->imprimir(arch);
+}
+
 

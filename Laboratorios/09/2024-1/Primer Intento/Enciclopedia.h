@@ -21,6 +21,9 @@ public:
     int GetAnho() const;
     void SetSku(int sku);
     int GetSku() const;
+    
+    void leer(ifstream &arch);
+    void imprimir(ofstream &arch);
 };
 
 #endif /* ENCICLOPEDIA_H */

@@ -13,9 +13,14 @@
 class Arbol {
 private:
     class NEstante *raiz;
+    NEstante *insertar(class NEstante *raiz, class NEstante *estante);
+    void imprimirInOrden(class NEstante *nodo, ofstream &arch);
 public:
     Arbol();
     virtual ~Arbol();
+    
+    void insertar(class NEstante *estante);
+    void imprimir(ofstream &arch);
 };
 
 #endif /* ARBOL_H */

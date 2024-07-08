@@ -47,4 +47,17 @@ void Libro::GetNombre(char *cad) const {
 void Libro::leer(ifstream& arch){
     char buffer[100];
     arch.getline(buffer, 100, ',');
+    SetNombre(buffer);
+    arch >> paginas;
+    arch.get();
+    arch >> peso;
+    arch.get();
 }
+
+void Libro::imprimir(ofstream& arch) {
+    char cad[100];
+    GetNombre(cad);
+    arch << "Titulo: " << cad << endl;
+    arch << "Peso: " << peso << endl;
+}
+

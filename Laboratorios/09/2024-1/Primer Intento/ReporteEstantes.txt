@@ -1,0 +1,54 @@
+Estante: 4
+Capacidad: 10     Disponible: 0.15
+====================================================================================================
+Titulo: Boletin de Arqueologia PUCP
+Peso: 1.3
+ISSN: 10292004     Año: 2021
+
+Titulo: Boletin de Arqueologia PUCP
+Peso: 1.3
+ISSN: 10292004     Año: 2021
+
+Titulo: Boletin de Arqueologia PUCP
+Peso: 1.3
+ISSN: 10292004     Año: 2021
+
+Titulo: Boletin de Arqueologia PUCP
+Peso: 1.3
+ISSN: 10292004     Año: 2021
+
+Titulo: Boletin de Arqueologia PUCP
+Peso: 1.3
+ISSN: 10292004     Año: 2021
+
+Titulo: Boletin de Arqueologia PUCP
+Peso: 1.3
+ISSN: 10292004     Año: 2021
+
+Titulo: Boletin de Arqueologia PUCP
+Peso: 1.3
+ISSN: 10292004     Año: 2021
+
+Titulo: Boletin de Arqueologia PUCP
+Peso: 1.3
+ISSN: 10292004     Año: 2021
+
+Titulo: Boletin de Arqueologia PUCP
+Peso: 1.3
+ISSN: 10292004     Año: 2021
+
+Titulo: Boletin de Arqueologia PUCP
+Peso: 1.3
+ISSN: 10292004     Año: 2021
+
+Estante: 2
+Capacidad: 10     Disponible: 2.3
+====================================================================================================
+Titulo: Historica
+Peso: 0.5
+ISSN: 2223375     Año: 2022
+
+Titulo: Historica
+Peso: 0.5
+ISSN: 2223375     Año: 2022
+

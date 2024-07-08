@@ -10,6 +10,8 @@
 
 #include <cstring>
 #include <fstream>
+#include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -29,6 +31,7 @@ public:
     void GetNombre(char *cad) const;
     
     virtual void leer(ifstream &arch);
+    virtual void imprimir(ofstream &arch);
 };
 
 #endif /* LIBRO_H */

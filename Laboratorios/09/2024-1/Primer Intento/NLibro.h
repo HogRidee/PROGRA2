@@ -9,6 +9,9 @@
 #define NLIBRO_H
 
 #include "Libro.h"
+#include "Enciclopedia.h"
+#include "Novela.h"
+#include "Revista.h"
 
 class NLibro {
 private:
@@ -16,6 +19,10 @@ private:
 public:
     NLibro();
     virtual ~NLibro();
+    
+    void asignarMemoria(char tipo);
+    double leerLibro(ifstream &arch);
+    void imprimirLibro(ofstream &arch);
 };
 
 #endif /* NLIBRO_H */

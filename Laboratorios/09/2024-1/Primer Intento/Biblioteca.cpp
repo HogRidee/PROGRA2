@@ -24,22 +24,28 @@ void Biblioteca::carga(){
         cout << "ERROR: No se pudo abrir el archivo Libros31.csv" << endl;
         exit(1);
     }
-    class NEstante estante;
     int id;
     double capacidad;
     while(true){
+        class NEstante *estante = new class NEstante;
         arch >> id;
         if(arch.eof()) break;
         arch.get();
         arch >> capacidad;
-        estante.SetCapacidad(capacidad);
-        estante.SetId(id);
-        estante.cargarLibros(arch2);
+        estante->SetCapacidad(capacidad);
+        estante->SetId(id);
+        estante->cargarLibros(arch2);
+        AEstante.insertar(estante);
     }
 }
     
 void Biblioteca::muestra(){
-    
+    ofstream arch("ReporteEstantes.txt", ios::out);
+    if(not arch.is_open()){
+        cout << "ERROR: No se pudo abrir el archivo ReporteEstantes.txt" << endl;
+        exit(1);
+    }
+    AEstante.imprimir(arch);
 }
     
 void Biblioteca::prueba(int n){

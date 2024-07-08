@@ -40,3 +40,17 @@ int Revista::GetISSN() const {
     return ISSN;
 }
 
+void Revista::leer(ifstream& arch){
+    Libro::leer(arch);
+    arch >> ISSN;
+    arch.get();
+    arch >> anho;
+    arch.get();
+    arch >> numero;
+    arch.get();
+}
+
+void Revista::imprimir(ofstream& arch) {
+    Libro::imprimir(arch);
+    arch << "ISSN: " << ISSN << setw(5) << " " << "Año: " << anho << endl;
+}

@@ -10,6 +10,7 @@
 
 #include <vector>
 #include <fstream>
+#include <iostream>
 
 #include "NLibro.h"
 #include "NEstante.h"
@@ -37,6 +38,7 @@ public:
     
     friend class Arbol;
     void cargarLibros(ifstream &arch);
+    void imprimirEstante(ofstream &arch);
 };
 
 #endif /* NESTANTE_H */
